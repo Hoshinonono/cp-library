@@ -29,7 +29,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/dsu.hpp
       title: Union Find
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/dsu_01_weighted.hpp
       title: "\u91CD\u307F\u4ED8\u304D Union Find (\u548C\u5DEE\u5206)"
     - icon: ':heavy_check_mark:'
@@ -81,7 +81,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
       title: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/DSL/DSL_1_B.test.cpp
       title: Test/Aizu Online Judge/DSL/DSL_1_B.test.cpp
     - icon: ':heavy_check_mark:'

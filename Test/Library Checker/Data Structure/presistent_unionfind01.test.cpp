@@ -9,7 +9,7 @@ int main() {
     ios::sync_with_stdio(false);
     int N, Q;
     cin >> N >> Q;
-    Kruskal_dsu uf(N);
+    Kruskal_dsu<int> uf(N);
     for(int i = 0; i < Q; i++){
         int t, k, u, v;
         cin >> t >> k >> u >> v;

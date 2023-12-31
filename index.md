@@ -31,7 +31,7 @@ data:
       title: Union Find
     - icon: ':warning:'
       path: Graph/dsu_weighted.hpp
-      title: Graph/dsu_weighted.hpp
+      title: "\u91CD\u307F\u4ED8\u304D Union Find (\u548C\u5DEE\u5206)"
     - icon: ':heavy_check_mark:'
       path: Graph/scc.hpp
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\

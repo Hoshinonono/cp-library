@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: Test/Library Checker/Data Structure/presistent_unionfind01.test.cpp
+    title: Test/Library Checker/Data Structure/presistent_unionfind01.test.cpp
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/dsu_02_max.hpp\"\ntemplate <class T> struct Kruskal_dsu\
@@ -56,8 +59,9 @@ data:
   path: Graph/dsu_02_max.hpp
   requiredBy: []
   timestamp: '2023-12-31 19:46:19+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_WA
+  verifiedWith:
+  - Test/Library Checker/Data Structure/presistent_unionfind01.test.cpp
 documentation_of: Graph/dsu_02_max.hpp
 layout: document
 title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5927\u8FBA\u53D6\

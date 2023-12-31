@@ -55,17 +55,28 @@ data:
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30C0\
         \u30D6\u30EA\u30F3\u30B0+UF)"
   verificationCategories:
-  - name: Test/Aizu Online Judge
+  - name: Test/Aizu Online Judge/ALDS1
     pages:
     - icon: ':heavy_check_mark:'
-      path: Test/Aizu Online Judge/ALDS1_05_D.test.cpp
-      title: Test/Aizu Online Judge/ALDS1_05_D.test.cpp
+      path: Test/Aizu Online Judge/ALDS1/ALDS1_05_D.test.cpp
+      title: Test/Aizu Online Judge/ALDS1/ALDS1_05_D.test.cpp
     - icon: ':heavy_check_mark:'
-      path: Test/Aizu Online Judge/ALDS1_11_D.test.cpp
-      title: Test/Aizu Online Judge/ALDS1_11_D.test.cpp
+      path: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
+      title: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
     - icon: ':heavy_check_mark:'
-      path: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
-      title: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
+      path: Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
+      title: Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
+  - name: Test/Aizu Online Judge/DSL
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
+      title: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/DSL/DSL_2_A.test.cpp
+      title: Test/Aizu Online Judge/DSL/DSL_2_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp
+      title: Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp
   - name: Test/Library Checker/Data Structure
     pages:
     - icon: ':heavy_check_mark:'

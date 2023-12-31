@@ -4,8 +4,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
-    title: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
+    path: Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
+    title: Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
   - icon: ':heavy_check_mark:'
     path: Test/yukicoder/yuki0755.test.cpp
     title: Test/yukicoder/yuki0755.test.cpp
@@ -52,7 +52,7 @@ data:
   timestamp: '2023-12-31 10:41:43+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Aizu Online Judge/ALDS1_14_C.test.cpp
+  - Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
   - Test/yukicoder/yuki0755.test.cpp
 documentation_of: DataStructure/CumulativeSum2D.hpp
 layout: document

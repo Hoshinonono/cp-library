@@ -4,8 +4,11 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: Test/Aizu Online Judge/ALDS1_11_D.test.cpp
-    title: Test/Aizu Online Judge/ALDS1_11_D.test.cpp
+    path: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
+    title: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
+    title: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
   - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Data Structure/unionfind.test.cpp
     title: Test/Library Checker/Data Structure/unionfind.test.cpp
@@ -68,7 +71,8 @@ data:
   timestamp: '2023-12-31 10:42:54+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Aizu Online Judge/ALDS1_11_D.test.cpp
+  - Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
+  - Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
   - Test/Library Checker/Data Structure/unionfind.test.cpp
 documentation_of: Graph/dsu.hpp
 layout: document

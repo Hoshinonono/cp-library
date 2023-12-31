@@ -4,8 +4,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
-    title: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
+    path: Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
+    title: Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -92,7 +92,7 @@ data:
   timestamp: '2023-12-31 10:44:52+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Aizu Online Judge/ALDS1_14_C.test.cpp
+  - Test/Aizu Online Judge/ALDS1/ALDS1_14_C.test.cpp
 documentation_of: Math/modint_61bit.hpp
 layout: document
 redirect_from:

@@ -32,7 +32,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/dsu_weighted.hpp
       title: "\u91CD\u307F\u4ED8\u304D Union Find (\u548C\u5DEE\u5206)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/dsu_xor.hpp
       title: "\u91CD\u307F\u4ED8\u304D Union Find (XOR\u5DEE\u5206)"
     - icon: ':heavy_check_mark:'
@@ -127,5 +127,8 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki0755.test.cpp
       title: Test/yukicoder/yuki0755.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/yuki2277.test.cpp
+      title: Test/yukicoder/yuki2277.test.cpp
 layout: toppage
 ---

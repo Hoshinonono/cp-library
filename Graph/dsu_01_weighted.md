@@ -1,6 +1,6 @@
 ---
 title: 重み付き Union Find (和差分)
-documentation_of: ./dsu_weighted.hpp
+documentation_of: ./dsu_01_weighted.hpp
 ---
 
 ## 概要

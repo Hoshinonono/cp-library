@@ -38,6 +38,9 @@ data:
     - icon: ':warning:'
       path: Math/modint.hpp
       title: Math/modint.hpp
+    - icon: ':warning:'
+      path: Math/modint_61bit.hpp
+      title: Math/modint_61bit.hpp
   verificationCategories: []
 layout: toppage
 ---

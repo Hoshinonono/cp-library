@@ -1,14 +1,13 @@
 ---
 title: 重み付き Union Find (和差分)
-documentation_of: ./dsu.hpp
+documentation_of: ./dsu_weighted.hpp
 ---
 
 ## 概要
-ほぼ AtCoder Library のパクリ。AtCoder Library に加えて連結成分数の取得ができるようにしてある。
 
 | 関数名など   | 機能        | 計算量    |
 | ------------|----------- | ------------- |
-|`dsu(int N)`|宣言。 $N$ 頂点 $0$ 辺のグラフを作成する。 | $\text{O} (N)$ | 
+|`Weighted_dsu(int N)`|宣言。 $N$ 頂点 $0$ 辺のグラフを作成する。 | $\text{O} (N)$ | 
 |`int merge(int a, int b, long long w)`| $ d_{b} - d_{a} = w $ として頂点 $a$ と頂点 $b$ を辺で結ぶ。辺の追加に成功した場合 `true` 、矛盾が生じた場合 `false` が返る。 | $\text{O} (\alpha(N))$ | 
 |`long long diff(int a, int b)`| 頂点 $a$ から頂点 $b$ への差分 $ d_{b} - d_{a}$ を返す。<br> 頂点 $a$ と頂点 $b$ が連結でない場合、assertにかかる | $\text{O} (\alpha(N))$ |
 |`bool same(int a, int b)`|頂点 $a$ と頂点 $b$ が連結であるかを返す。 | $\text{O} (\alpha(N))$ | 

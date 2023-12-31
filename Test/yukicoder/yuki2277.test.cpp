@@ -1,7 +1,7 @@
 #define PROBLEM "https://yukicoder.me/problems/no/2277"
 
 #include <bits/stdc++.h>
-#include "Graph/dsu_xor.hpp"
+#include "Graph/dsu_01_xor.hpp"
 #include "Math/modint.hpp"
 using mint = prime_modint<998244353>;
 

@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/yuki0755.test.cpp
+    title: Test/yukicoder/yuki0755.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/CumulativeSum2D_imos.hpp\"\ntemplate <class\
@@ -40,8 +43,9 @@ data:
   path: DataStructure/CumulativeSum2D_imos.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:39:36+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/yukicoder/yuki0755.test.cpp
 documentation_of: DataStructure/CumulativeSum2D_imos.hpp
 layout: document
 title: "2\u6B21\u5143\u3044\u3082\u3059\u6CD5"

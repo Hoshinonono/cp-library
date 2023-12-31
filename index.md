@@ -3,10 +3,10 @@ data:
   libraryCategories:
   - name: DataStructure
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/CumulativeSum2D.hpp
       title: "2\u6B21\u5143\u7D2F\u7A4D\u548C"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/CumulativeSum2D_imos.hpp
       title: "2\u6B21\u5143\u3044\u3082\u3059\u6CD5"
     - icon: ':warning:'
@@ -54,6 +54,11 @@ data:
       path: Tree/lca_ufdoubling.hpp
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30C0\
         \u30D6\u30EA\u30F3\u30B0+UF)"
-  verificationCategories: []
+  verificationCategories:
+  - name: Test/yukicoder
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/yuki0755.test.cpp
+      title: Test/yukicoder/yuki0755.test.cpp
 layout: toppage
 ---

@@ -2,5 +2,12 @@
 "Test/Library Checker/Data Structure/point_add_range_sum.test.cpp": "2023-12-31 10:48:08 +0900",
 "Test/Library Checker/Data Structure/staticrmq01.test.cpp": "2023-12-31 10:48:42 +0900",
 "Test/Library Checker/Data Structure/unionfind.test.cpp": "2023-12-31 10:48:42 +0900",
+"Test/Library Checker/Graph/scc.test.cpp": "2023-12-31 10:55:17 +0900",
+"Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp": "2023-12-31 10:56:09 +0900",
+"Test/Library Checker/Tree/lca_doubling.test.cpp": "2023-12-31 10:56:46 +0900",
+"Test/Library Checker/Tree/lca_ufdoubling.test.cpp": "2023-12-31 10:56:46 +0900",
+"Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp": "2023-12-31 10:56:46 +0900",
+"Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp": "2023-12-31 10:56:46 +0900",
+"Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp": "2023-12-31 10:56:46 +0900",
 "Test/yukicoder/yuki0755.test.cpp": "2023-12-31 10:47:11 +0900"
 }

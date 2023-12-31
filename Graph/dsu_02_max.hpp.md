@@ -8,7 +8,7 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"Graph/dsu_y_max.hpp\"\ntemplate <class T> struct Kruskal_dsu\
+  bundledCode: "#line 1 \"Graph/dsu_02_max.hpp\"\ntemplate <class T> struct Kruskal_dsu\
     \ {\r\n    public:\r\n    Kruskal_dsu() : _n(0) {}\r\n    Kruskal_dsu(int n) :\
     \ _n(n), num_component(n), parent_or_size(n, -1), \r\n                       \
     \  dat(n, std::numeric_limits<T>::max()) {}\r\n\r\n    bool merge(int u, int v,\
@@ -53,12 +53,12 @@ data:
     \ parent_or_size;\r\n    std::vector<T> dat;\r\n};\r\n"
   dependsOn: []
   isVerificationFile: false
-  path: Graph/dsu_y_max.hpp
+  path: Graph/dsu_02_max.hpp
   requiredBy: []
-  timestamp: '2023-12-31 19:30:49+09:00'
+  timestamp: '2023-12-31 19:46:19+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: Graph/dsu_y_max.hpp
+documentation_of: Graph/dsu_02_max.hpp
 layout: document
 title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5927\u8FBA\u53D6\
   \u5F97\u7528)"

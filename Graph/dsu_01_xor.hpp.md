@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/yuki2277.test.cpp
+    title: Test/yukicoder/yuki2277.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/dsu_01_xor.hpp\"\ntemplate <class T> struct xor_dsu\
@@ -69,8 +72,9 @@ data:
   path: Graph/dsu_01_xor.hpp
   requiredBy: []
   timestamp: '2023-12-31 19:45:05+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/yukicoder/yuki2277.test.cpp
 documentation_of: Graph/dsu_01_xor.hpp
 layout: document
 title: "\u91CD\u307F\u4ED8\u304D Union Find (XOR\u5DEE\u5206)"

@@ -16,5 +16,6 @@
 "Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp": "2023-12-31 10:56:46 +0900",
 "Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp": "2023-12-31 10:56:46 +0900",
 "Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp": "2023-12-31 10:56:46 +0900",
-"Test/yukicoder/yuki0755.test.cpp": "2023-12-31 10:47:11 +0900"
+"Test/yukicoder/yuki0755.test.cpp": "2023-12-31 10:47:11 +0900",
+"Test/yukicoder/yuki2277.test.cpp": "2023-12-31 13:18:56 +0900"
 }

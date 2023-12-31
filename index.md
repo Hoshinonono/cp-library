@@ -24,6 +24,11 @@ data:
     - icon: ':warning:'
       path: DataStructure/segtree_lazy.hpp
       title: "\u9045\u5EF6\u8A55\u4FA1\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+  - name: Graph
+    pages:
+    - icon: ':warning:'
+      path: Graph/dsu.hpp
+      title: Graph/dsu.hpp
   verificationCategories: []
 layout: toppage
 ---

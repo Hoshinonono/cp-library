@@ -2,17 +2,14 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
-    path: Test/Aizu Online Judge/DSL/DSL_1_B.test.cpp
-    title: Test/Aizu Online Judge/DSL/DSL_1_B.test.cpp
+  _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"Graph/dsu_weighted.hpp\"\nstruct Weighted_dsu {\n    public:\n\
-    \    Weighted_dsu() : _n(0) {}\n    Weighted_dsu(int n) : _n(n), num_component(n),\
+  bundledCode: "#line 1 \"Graph/dsu_01_weighted.hpp\"\nstruct Weighted_dsu {\n   \
+    \ public:\n    Weighted_dsu() : _n(0) {}\n    Weighted_dsu(int n) : _n(n), num_component(n),\
     \ parent_or_size(n, -1), diff_weight(n) {}\n\n    bool merge(int a, int b, long\
     \ long w) {\n        assert(0 <= a && a < _n);\n        assert(0 <= b && b < _n);\n\
     \        int x = leader(a), y = leader(b);\n        w += diff_weight[a] - diff_weight[b];\n\
@@ -67,13 +64,12 @@ data:
     \        std::vector<long long> diff_weight;\n};\n"
   dependsOn: []
   isVerificationFile: false
-  path: Graph/dsu_weighted.hpp
+  path: Graph/dsu_01_weighted.hpp
   requiredBy: []
-  timestamp: '2023-12-31 11:35:01+09:00'
-  verificationStatus: LIBRARY_ALL_AC
-  verifiedWith:
-  - Test/Aizu Online Judge/DSL/DSL_1_B.test.cpp
-documentation_of: Graph/dsu_weighted.hpp
+  timestamp: '2023-12-31 19:42:38+09:00'
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
+documentation_of: Graph/dsu_01_weighted.hpp
 layout: document
 title: "\u91CD\u307F\u4ED8\u304D Union Find (\u548C\u5DEE\u5206)"
 ---

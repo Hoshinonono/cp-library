@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Data Structure/unionfind.test.cpp
+    title: Test/Library Checker/Data Structure/unionfind.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/dsu.hpp\"\nstruct dsu {\n    public:\n    dsu() :\
@@ -60,8 +63,9 @@ data:
   path: Graph/dsu.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:42:54+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Data Structure/unionfind.test.cpp
 documentation_of: Graph/dsu.hpp
 layout: document
 title: Union Find

@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
+    title: Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/fenwick_tree.hpp\"\ntemplate <class T> struct\
@@ -34,8 +37,9 @@ data:
   path: DataStructure/fenwick_tree.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:41:43+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
 documentation_of: DataStructure/fenwick_tree.hpp
 layout: document
 title: "\u30D5\u30A7\u30CB\u30C3\u30AF\u6728 (BIT, Binary Indexed Tree)"

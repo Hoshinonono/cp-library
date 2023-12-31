@@ -1,6 +1,6 @@
 ---
 title: 簡易版部分永続 Union Find (最大辺取得用)
-documentation_of: ./dsu2_max.hpp
+documentation_of: ./dsu__max.hpp
 ---
 
 ## 概要

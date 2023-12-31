@@ -6,9 +6,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
     title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
-  - icon: ':heavy_check_mark:'
-    path: Test/yukicoder/yuki2277.test.cpp
-    title: Test/yukicoder/yuki2277.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -77,7 +74,6 @@ data:
   timestamp: '2023-12-31 10:44:35+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/yukicoder/yuki2277.test.cpp
   - Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
 documentation_of: Math/modint.hpp
 layout: document

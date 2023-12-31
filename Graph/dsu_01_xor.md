@@ -1,6 +1,6 @@
 ---
 title: 重み付き Union Find (XOR差分)
-documentation_of: ./dsu_xor.hpp
+documentation_of: ./dsu_01_xor.hpp
 ---
 
 ## 概要

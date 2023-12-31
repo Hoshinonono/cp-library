@@ -1,7 +1,7 @@
 #define PROBLEM "https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_B"
 
 #include <bits/stdc++.h>
-#include "Graph/dsu_weighted.hpp"
+#include "Graph/dsu_01_weighted.hpp"
 
 int main() {
     std::cin.tie(0);

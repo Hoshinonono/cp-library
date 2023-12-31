@@ -41,25 +41,25 @@ data:
     \ parent_or_size;\r\n    std::vector<T> dat;\r\n};\r\n#line 5 \"Test/Library Checker/Data\
     \ Structure/presistent_unionfind01.test.cpp\"\nusing namespace std;\r\n\r\nint\
     \ main() {\r\n    cin.tie(0);\r\n    ios::sync_with_stdio(false);\r\n    int N,\
-    \ Q;\r\n    cin >> N >> Q;\r\n    Kruskal_dsu uf(N);\r\n    for(int i = 0; i <\
-    \ Q; i++){\r\n        int t, k, u, v;\r\n        cin >> t >> k >> u >> v;\r\n\
-    \        if(t == 0){\r\n            uf.merge(u, v, i);\r\n        }else{\r\n \
-    \           cout << (uf.max_edge(u, v) <= k) << '\\n';\r\n        }\r\n    }\r\
-    \n}\n"
+    \ Q;\r\n    cin >> N >> Q;\r\n    Kruskal_dsu<int> uf(N);\r\n    for(int i = 0;\
+    \ i < Q; i++){\r\n        int t, k, u, v;\r\n        cin >> t >> k >> u >> v;\r\
+    \n        if(t == 0){\r\n            uf.merge(u, v, i);\r\n        }else{\r\n\
+    \            cout << (uf.max_edge(u, v) <= k) << '\\n';\r\n        }\r\n    }\r\
+    \n}\r\n"
   code: "#define PROBLEM \"https://judge.yosupo.jp/problem/persistent_unionfind\"\
     \ \r\n\r\n#include <bits/stdc++.h>\r\n#include \"Graph/dsu_02_max.hpp\"\r\nusing\
     \ namespace std;\r\n\r\nint main() {\r\n    cin.tie(0);\r\n    ios::sync_with_stdio(false);\r\
-    \n    int N, Q;\r\n    cin >> N >> Q;\r\n    Kruskal_dsu uf(N);\r\n    for(int\
+    \n    int N, Q;\r\n    cin >> N >> Q;\r\n    Kruskal_dsu<int> uf(N);\r\n    for(int\
     \ i = 0; i < Q; i++){\r\n        int t, k, u, v;\r\n        cin >> t >> k >> u\
     \ >> v;\r\n        if(t == 0){\r\n            uf.merge(u, v, i);\r\n        }else{\r\
     \n            cout << (uf.max_edge(u, v) <= k) << '\\n';\r\n        }\r\n    }\r\
-    \n}"
+    \n}\r\n"
   dependsOn:
   - Graph/dsu_02_max.hpp
   isVerificationFile: true
   path: Test/Library Checker/Data Structure/presistent_unionfind01.test.cpp
   requiredBy: []
-  timestamp: '2023-12-31 23:01:40+09:00'
+  timestamp: '2023-12-31 23:03:35+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: Test/Library Checker/Data Structure/presistent_unionfind01.test.cpp

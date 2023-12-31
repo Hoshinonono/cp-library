@@ -19,7 +19,7 @@ CODE THANKS FESTIVAL 2017「H - Union Sets」</a></li>
 
 | 関数名など   | 機能        | 計算量    |
 | ------------|----------- | ------------- |
-|`dsu(int N)`|宣言。 $N$ 頂点 $0$ 辺のグラフを作成する。<br>辺の型 `T` を渡す。 | $\text{O} (N)$ | 
+|`Kruskal_dsu(int N)`|宣言。 $N$ 頂点 $0$ 辺のグラフを作成する。<br>辺の型 `T` を渡す。 | $\text{O} (N)$ | 
 |`bool merge(int a, int b, T w)`|頂点 $a$ と頂点 $b$ を辺の大きさ $w$ で結ぶ。辺の追加に成功したら`true`、既に連結である場合は`false`が返される。<br>辺は昇順に追加する必要がある。 | $\text{O} (\log N)$ | 
 |`bool same(int a, int b)`|頂点 $a$ と頂点 $b$ が連結であるかを返す。 | $\text{O} (\log N)$ | 
 |`int leader(int a)`|頂点 $a$ の属する連結成分の代表元を返す。| $\text{O} (\log N)$ | 

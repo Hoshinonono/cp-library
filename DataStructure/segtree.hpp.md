@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
+    title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/segtree.hpp\"\ntemplate <class S, S (*op)(S,\
@@ -99,8 +102,9 @@ data:
   path: DataStructure/segtree.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:41:43+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
 documentation_of: DataStructure/segtree.hpp
 layout: document
 title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"

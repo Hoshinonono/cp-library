@@ -15,10 +15,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/fenwick_tree.hpp
       title: "\u30D5\u30A7\u30CB\u30C3\u30AF\u6728 (BIT, Binary Indexed Tree)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/segtree.hpp
       title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/segtree_dual.hpp
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
     - icon: ':warning:'
@@ -29,13 +29,13 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/dsu.hpp
       title: Union Find
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/scc.hpp
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\
         \ Component)"
   - name: Math
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Math/modint.hpp
       title: Math/modint.hpp
     - icon: ':warning:'
@@ -43,14 +43,14 @@ data:
       title: Math/modint_61bit.hpp
   - name: Tree
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Tree/hld.hpp
       title: "HL\u5206\u89E3 (HLD, Heavy-Light-Decomposition)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Tree/lca_doubling.hpp
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30BF\
         \u30D6\u30EA\u30F3\u30B0)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Tree/lca_ufdoubling.hpp
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30C0\
         \u30D6\u30EA\u30F3\u30B0+UF)"
@@ -66,6 +66,31 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Library Checker/Data Structure/unionfind.test.cpp
       title: Test/Library Checker/Data Structure/unionfind.test.cpp
+  - name: Test/Library Checker/Graph
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Graph/scc.test.cpp
+      title: Test/Library Checker/Graph/scc.test.cpp
+  - name: Test/Library Checker/Tree
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
+      title: Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/lca_doubling.test.cpp
+      title: Test/Library Checker/Tree/lca_doubling.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/lca_ufdoubling.test.cpp
+      title: Test/Library Checker/Tree/lca_ufdoubling.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
+      title: Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
+      title: Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
+      title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - name: Test/yukicoder
     pages:
     - icon: ':heavy_check_mark:'

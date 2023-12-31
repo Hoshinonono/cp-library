@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
     title: Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
+    title: Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -40,6 +43,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
+  - Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
 documentation_of: DataStructure/fenwick_tree.hpp
 layout: document
 title: "\u30D5\u30A7\u30CB\u30C3\u30AF\u6728 (BIT, Binary Indexed Tree)"

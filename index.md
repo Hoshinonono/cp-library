@@ -30,9 +30,8 @@ data:
       path: Graph/dsu.hpp
       title: Union Find
     - icon: ':warning:'
-      path: Graph/dsu2_max.hpp
-      title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5927\u8FBA\
-        \u53D6\u5F97\u7528)"
+      path: Graph/dsu__max.hpp
+      title: Graph/dsu__max.hpp
     - icon: ':heavy_check_mark:'
       path: Graph/dsu_weighted.hpp
       title: "\u91CD\u307F\u4ED8\u304D Union Find (\u548C\u5DEE\u5206)"

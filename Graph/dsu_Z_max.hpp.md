@@ -8,7 +8,7 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"Graph/dsu_A_max.hpp\"\ntemplate <class T> struct Kruskal_dsu\
+  bundledCode: "#line 1 \"Graph/dsu_Z_max.hpp\"\ntemplate <class T> struct Kruskal_dsu\
     \ {\r\n    public:\r\n    Kruskal_dsu() : _n(0) {}\r\n    Kruskal_dsu(int n) :\
     \ _n(n), num_component(n), parent_or_size(n, -1), \r\n                       \
     \  dat(n, std::numeric_limits<T>::max()) {}\r\n\r\n    bool merge(int u, int v,\
@@ -53,15 +53,15 @@ data:
     \ parent_or_size;\r\n    std::vector<T> dat;\r\n};\r\n"
   dependsOn: []
   isVerificationFile: false
-  path: Graph/dsu_A_max.hpp
+  path: Graph/dsu_Z_max.hpp
   requiredBy: []
-  timestamp: '2023-12-31 19:30:07+09:00'
+  timestamp: '2023-12-31 19:30:28+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
-documentation_of: Graph/dsu_A_max.hpp
+documentation_of: Graph/dsu_Z_max.hpp
 layout: document
 redirect_from:
-- /library/Graph/dsu_A_max.hpp
-- /library/Graph/dsu_A_max.hpp.html
-title: Graph/dsu_A_max.hpp
+- /library/Graph/dsu_Z_max.hpp
+- /library/Graph/dsu_Z_max.hpp.html
+title: Graph/dsu_Z_max.hpp
 ---

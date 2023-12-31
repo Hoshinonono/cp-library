@@ -45,7 +45,15 @@ data:
     pages:
     - icon: ':warning:'
       path: Tree/hld.hpp
-      title: Tree/hld.hpp
+      title: "HL\u5206\u89E3 (HLD, Heavy-Light-Decomposition)"
+    - icon: ':warning:'
+      path: Tree/lca_doubling.hpp
+      title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30BF\
+        \u30D6\u30EA\u30F3\u30B0)"
+    - icon: ':warning:'
+      path: Tree/lca_ufdoubling.hpp
+      title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30C0\
+        \u30D6\u30EA\u30F3\u30B0+UF)"
   verificationCategories: []
 layout: toppage
 ---

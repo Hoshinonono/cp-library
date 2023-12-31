@@ -38,7 +38,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Math/modint.hpp
       title: Math/modint.hpp
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Math/modint_61bit.hpp
       title: Math/modint_61bit.hpp
   - name: Tree
@@ -60,6 +60,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/ALDS1_05_D.test.cpp
       title: Test/Aizu Online Judge/ALDS1_05_D.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/ALDS1_11_D.test.cpp
+      title: Test/Aizu Online Judge/ALDS1_11_D.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
+      title: Test/Aizu Online Judge/ALDS1_14_C.test.cpp
   - name: Test/Library Checker/Data Structure
     pages:
     - icon: ':heavy_check_mark:'

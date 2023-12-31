@@ -28,7 +28,11 @@ data:
     pages:
     - icon: ':warning:'
       path: Graph/dsu.hpp
-      title: Graph/dsu.hpp
+      title: Union Find
+    - icon: ':warning:'
+      path: Graph/scc.hpp
+      title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\
+        \ Component)"
   verificationCategories: []
 layout: toppage
 ---

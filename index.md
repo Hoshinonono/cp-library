@@ -132,6 +132,9 @@ data:
       title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - name: Test/yukicoder
     pages:
+    - icon: ':x:'
+      path: Test/yukicoder/yuki0416.test.cpp
+      title: Test/yukicoder/yuki0416.test.cpp
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki0755.test.cpp
       title: Test/yukicoder/yuki0755.test.cpp

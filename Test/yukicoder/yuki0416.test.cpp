@@ -1,7 +1,7 @@
 #define PROBLEM "https://yukicoder.me/problems/no/416"
 
 #include <bits/stdc++.h>
-#include "DataStructure/dsu_02_min.hpp"
+#include "Graph/dsu_02_min.hpp"
 using namespace std;
 
 int main() {

@@ -39,7 +39,7 @@ data:
       path: Graph/dsu_02_max.hpp
       title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5927\u8FBA\
         \u53D6\u5F97\u7528)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/dsu_02_min.hpp
       title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5C0F\u8FBA\
         \u53D6\u5F97\u7528)"
@@ -132,7 +132,7 @@ data:
       title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - name: Test/yukicoder
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki0416.test.cpp
       title: Test/yukicoder/yuki0416.test.cpp
     - icon: ':heavy_check_mark:'

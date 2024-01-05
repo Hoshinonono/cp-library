@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/yuki0416.test.cpp
+    title: Test/yukicoder/yuki0416.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/dsu_02_min.hpp\"\ntemplate <class T> struct Kruskal_dsu\
@@ -57,8 +60,9 @@ data:
   path: Graph/dsu_02_min.hpp
   requiredBy: []
   timestamp: '2023-12-31 20:01:14+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/yukicoder/yuki0416.test.cpp
 documentation_of: Graph/dsu_02_min.hpp
 layout: document
 title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5C0F\u8FBA\u53D6\

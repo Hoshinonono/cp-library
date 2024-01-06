@@ -43,6 +43,9 @@ data:
       path: Graph/dsu_02_min.hpp
       title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5C0F\u8FBA\
         \u53D6\u5F97\u7528)"
+    - icon: ':warning:'
+      path: Graph/dsu_03_rollback.hpp
+      title: "Rollback\u4ED8\u304DUnion Find"
     - icon: ':heavy_check_mark:'
       path: Graph/scc.hpp
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\

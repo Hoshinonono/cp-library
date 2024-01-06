@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp
+    title: Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/dsu_03_rollback.hpp\"\nstruct rollback_dsu {\r\n \
@@ -79,8 +82,9 @@ data:
   path: Graph/dsu_03_rollback.hpp
   requiredBy: []
   timestamp: '2024-01-06 20:24:18+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp
 documentation_of: Graph/dsu_03_rollback.hpp
 layout: document
 title: "Rollback\u4ED8\u304DUnion Find"

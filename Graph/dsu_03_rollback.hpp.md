@@ -41,9 +41,8 @@ data:
     \n        }\r\n        result.erase(\r\n            std::remove_if(result.begin(),\
     \ result.end(),\r\n                           [&](const std::vector<int>& v) {\
     \ return v.empty(); }),\r\n            result.end());\r\n        return result;\r\
-    \n    }\r\n\r\n    private:\r\n    int _n, num_component;\r\n    // root node:\
-    \ -1 * component size\r\n    // otherwise: parent\r\n    std::vector<int> parent_or_size;\r\
-    \n    std::vector<std::pair<int,int>> history;\r\n};\n"
+    \n    }\r\n\r\n    private:\r\n    int _n, num_component;\r\n    std::vector<int>\
+    \ parent_or_size;\r\n    std::vector<std::pair<int,int>> history;\r\n};\r\n"
   code: "struct rollback_dsu {\r\n    public:\r\n    rollback_dsu() : _n(0) {}\r\n\
     \    rollback_dsu(int n) : _n(n), num_component(n), parent_or_size(n, -1) {}\r\
     \n\r\n    int merge(int a, int b) {\r\n        assert(0 <= a && a < _n);\r\n \
@@ -74,14 +73,13 @@ data:
     \n        }\r\n        result.erase(\r\n            std::remove_if(result.begin(),\
     \ result.end(),\r\n                           [&](const std::vector<int>& v) {\
     \ return v.empty(); }),\r\n            result.end());\r\n        return result;\r\
-    \n    }\r\n\r\n    private:\r\n    int _n, num_component;\r\n    // root node:\
-    \ -1 * component size\r\n    // otherwise: parent\r\n    std::vector<int> parent_or_size;\r\
-    \n    std::vector<std::pair<int,int>> history;\r\n};"
+    \n    }\r\n\r\n    private:\r\n    int _n, num_component;\r\n    std::vector<int>\
+    \ parent_or_size;\r\n    std::vector<std::pair<int,int>> history;\r\n};\r\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/dsu_03_rollback.hpp
   requiredBy: []
-  timestamp: '2024-01-06 20:24:18+09:00'
+  timestamp: '2024-01-07 20:45:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp

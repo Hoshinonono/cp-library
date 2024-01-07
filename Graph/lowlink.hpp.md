@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
     title: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: Test/Aizu Online Judge/GRL/GRL_3_B.test.cpp
+    title: Test/Aizu Online Judge/GRL/GRL_3_B.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -52,6 +55,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
+  - Test/Aizu Online Judge/GRL/GRL_3_B.test.cpp
 documentation_of: Graph/lowlink.hpp
 layout: document
 title: "LowLink\u95A2\u9023 (\u95A2\u7BC0\u70B9, \u6A4B)"

@@ -105,6 +105,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
       title: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/GRL/GRL_3_B.test.cpp
+      title: Test/Aizu Online Judge/GRL/GRL_3_B.test.cpp
   - name: Test/Library Checker/Data Structure
     pages:
     - icon: ':heavy_check_mark:'

@@ -46,7 +46,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/dsu_03_rollback.hpp
       title: "Rollback\u4ED8\u304DUnion Find"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/lowlink.hpp
       title: "LowLink\u95A2\u9023 (\u95A2\u7BC0\u70B9, \u6A4B)"
     - icon: ':heavy_check_mark:'
@@ -100,6 +100,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp
       title: Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp
+  - name: Test/Aizu Online Judge/GRL
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
+      title: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
   - name: Test/Library Checker/Data Structure
     pages:
     - icon: ':heavy_check_mark:'

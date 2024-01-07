@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
+    title: Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/lowlink.hpp\"\nstruct lowlink_graph{\r\n    int N;\r\
@@ -46,8 +49,9 @@ data:
   path: Graph/lowlink.hpp
   requiredBy: []
   timestamp: '2024-01-08 00:56:38+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Aizu Online Judge/GRL/GRL_3_A.test.cpp
 documentation_of: Graph/lowlink.hpp
 layout: document
 title: "LowLink\u95A2\u9023 (\u95A2\u7BC0\u70B9, \u6A4B)"

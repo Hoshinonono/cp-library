@@ -79,8 +79,6 @@ struct rollback_dsu {
 
     private:
     int _n, num_component;
-    // root node: -1 * component size
-    // otherwise: parent
     std::vector<int> parent_or_size;
     std::vector<std::pair<int,int>> history;
 };

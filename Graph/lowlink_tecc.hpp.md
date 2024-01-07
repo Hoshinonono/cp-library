@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Graph/two_edge_connected_components.test.cpp
+    title: Test/Library Checker/Graph/two_edge_connected_components.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/lowlink_tecc.hpp\"\nstruct tecc_graph{\r\n    int\
@@ -78,8 +81,9 @@ data:
   path: Graph/lowlink_tecc.hpp
   requiredBy: []
   timestamp: '2024-01-08 01:55:34+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Graph/two_edge_connected_components.test.cpp
 documentation_of: Graph/lowlink_tecc.hpp
 layout: document
 title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3 (TECC, Two-Edge-Connected\

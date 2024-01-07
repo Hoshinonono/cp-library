@@ -49,7 +49,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/lowlink.hpp
       title: "LowLink\u95A2\u9023 (\u95A2\u7BC0\u70B9, \u6A4B)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/lowlink_tecc.hpp
       title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3 (TECC, Two-Edge-Connected\
         \ Components)"
@@ -131,6 +131,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Library Checker/Graph/scc.test.cpp
       title: Test/Library Checker/Graph/scc.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Graph/two_edge_connected_components.test.cpp
+      title: Test/Library Checker/Graph/two_edge_connected_components.test.cpp
   - name: Test/Library Checker/Tree
     pages:
     - icon: ':heavy_check_mark:'

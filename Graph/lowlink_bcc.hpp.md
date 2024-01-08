@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Graph/biconnected_components.test.cpp
+    title: Test/Library Checker/Graph/biconnected_components.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/lowlink_bcc.hpp\"\nstruct bcc_graph{\r\n    int N;\r\
@@ -86,8 +89,9 @@ data:
   path: Graph/lowlink_bcc.hpp
   requiredBy: []
   timestamp: '2024-01-09 05:18:22+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Graph/biconnected_components.test.cpp
 documentation_of: Graph/lowlink_bcc.hpp
 layout: document
 title: "\u4E8C\u91CD\u9802\u70B9\u9023\u7D50\u6210\u5206\u5206\u89E3 (BCC, Bi-Connected\

@@ -12,6 +12,7 @@
 "Test/Library Checker/Data Structure/point_add_range_sum.test.cpp": "2023-12-31 10:48:08 +0900",
 "Test/Library Checker/Data Structure/staticrmq01.test.cpp": "2023-12-31 10:48:42 +0900",
 "Test/Library Checker/Data Structure/unionfind.test.cpp": "2023-12-31 10:48:42 +0900",
+"Test/Library Checker/Graph/biconnected_components.test.cpp": "2024-01-09 05:20:30 +0900",
 "Test/Library Checker/Graph/scc.test.cpp": "2023-12-31 10:55:17 +0900",
 "Test/Library Checker/Graph/two_edge_connected_components.test.cpp": "2024-01-08 02:01:46 +0900",
 "Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp": "2023-12-31 10:56:09 +0900",

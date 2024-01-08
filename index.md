@@ -49,6 +49,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/lowlink.hpp
       title: "LowLink\u95A2\u9023 (\u95A2\u7BC0\u70B9, \u6A4B)"
+    - icon: ':warning:'
+      path: Graph/lowlink_bcc.hpp
+      title: "\u4E8C\u91CD\u9802\u70B9\u9023\u7D50\u6210\u5206\u5206\u89E3 (BCC, Bi-Connected\
+        \ Components)"
     - icon: ':heavy_check_mark:'
       path: Graph/lowlink_tecc.hpp
       title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3 (TECC, Two-Edge-Connected\

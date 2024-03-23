@@ -21,7 +21,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/segtree_dual.hpp
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/segtree_lazy.hpp
       title: "\u9045\u5EF6\u8A55\u4FA1\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
   - name: Graph
@@ -172,5 +172,8 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2277.test.cpp
       title: Test/yukicoder/yuki2277.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/yuki2697.test.cpp
+      title: Test/yukicoder/yuki2697.test.cpp
 layout: toppage
 ---

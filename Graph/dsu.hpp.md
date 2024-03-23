@@ -12,6 +12,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Data Structure/unionfind.test.cpp
     title: Test/Library Checker/Data Structure/unionfind.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/yuki2696.test.cpp
+    title: Test/yukicoder/yuki2696.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -72,6 +75,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Library Checker/Data Structure/unionfind.test.cpp
+  - Test/yukicoder/yuki2696.test.cpp
   - Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
   - Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
 documentation_of: Graph/dsu.hpp

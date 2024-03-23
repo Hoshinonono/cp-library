@@ -35,7 +35,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/dsu_01_xor.hpp
       title: "\u91CD\u307F\u4ED8\u304D Union Find (XOR\u5DEE\u5206)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/dsu_02_max.hpp
       title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5927\u8FBA\
         \u53D6\u5F97\u7528)"
@@ -172,6 +172,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2277.test.cpp
       title: Test/yukicoder/yuki2277.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/yuki2642.test.cpp
+      title: Test/yukicoder/yuki2642.test.cpp
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2696.test.cpp
       title: Test/yukicoder/yuki2696.test.cpp

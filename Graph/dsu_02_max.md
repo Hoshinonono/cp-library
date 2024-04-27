@@ -13,7 +13,6 @@ documentation_of: ./dsu_02_max.hpp
 CODE THANKS FESTIVAL 2017「H - Union Sets」</a></li>
     <li>AtCoder：<a href="https://atcoder.jp/contests/past202004-open/tasks/past202004_o">
 第二回 アルゴリズム実技検定 過去問「O - 可変全域木」</a></li>
-    <li>Library Checker：<a href="https://judge.yosupo.jp/problem/persistent_unionfind">Persistent Unionfind</a></li>
     <li>Codeforces：<a href="https://codeforces.com/contest/1706/problem/E">Codeforces Round #809 (Div. 2)「E. Qpwoeirut and Vertices」</a></li>
 </ul>
 

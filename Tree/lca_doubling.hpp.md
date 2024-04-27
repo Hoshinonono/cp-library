@@ -94,8 +94,8 @@ data:
   timestamp: '2023-12-31 10:46:03+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
   - Test/Library Checker/Tree/lca_doubling.test.cpp
+  - Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
 documentation_of: Tree/lca_doubling.hpp
 layout: document
 title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30BF\

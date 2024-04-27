@@ -176,6 +176,9 @@ data:
       path: Test/yukicoder/yuki2642.test.cpp
       title: Test/yukicoder/yuki2642.test.cpp
     - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/yuki2664.test.cpp
+      title: Test/yukicoder/yuki2664.test.cpp
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2696.test.cpp
       title: Test/yukicoder/yuki2696.test.cpp
     - icon: ':heavy_check_mark:'

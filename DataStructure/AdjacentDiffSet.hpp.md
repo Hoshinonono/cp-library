@@ -66,7 +66,7 @@ Codeforces Round 894 (Div. 3)「G. The Great Equalizer」</a></li>
 |---------|----|-----|
 |`Adjacent_Diff_Set`| 空集合を作成。要素の集合には番兵が入れられる。| $\text{O}(1)$ |
 |`void add(long long v)`| 要素 $v$ を追加する。| $\text{O}(\log N)$ |
-|`void del()`| 要素 $v$ を削除する。| $\text{O}(\log N)$ |
+|`void del(long long v)`| 要素 $v$ を削除する。| $\text{O}(\log N)$ |
 |`long long max()`| 加えられた要素の最大値を取得。 | $\text{O}(\log N)$ |
 |`long long min()`| 加えられた要素の最小値を取得。 | $\text{O}(\log N)$ |
 |`long long max_diff()`| 加えられた要素をソートしたときの隣接差の最大値を取得。<br> 要素数が2未満の場合は `0` を返す。 | $\text{O}(\log N)$ |

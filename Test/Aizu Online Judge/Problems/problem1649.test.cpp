@@ -1,4 +1,4 @@
-#define PROBLEM "https://onlinejudge.u-aizu.ac.jp/services/ice/?problemId=1649"
+#define PROBLEM "https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1649"
 
 #include <bits/stdc++.h>
 #include "Graph/dsu.hpp"

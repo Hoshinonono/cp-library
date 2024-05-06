@@ -6,16 +6,16 @@ data:
     title: Union Find
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
-    PROBLEM: https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/5/ALDS1_11_D
+    PROBLEM: https://onlinejudge.u-aizu.ac.jp/services/ice/?problemId=1649
     links:
-    - https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/5/ALDS1_11_D
-  bundledCode: "#line 1 \"Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp\"\n#define\
-    \ PROBLEM \"https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/5/ALDS1_11_D\"\
+    - https://onlinejudge.u-aizu.ac.jp/services/ice/?problemId=1649
+  bundledCode: "#line 1 \"Test/Aizu Online Judge/Problems/problem1649.test.cpp\"\n\
+    #define PROBLEM \"https://onlinejudge.u-aizu.ac.jp/services/ice/?problemId=1649\"\
     \r\n\r\n#include <bits/stdc++.h>\r\n#line 1 \"Graph/dsu.hpp\"\nstruct dsu {\n\
     \    public:\n    dsu() : _n(0) {}\n    dsu(int n) : _n(n), num_component(n),\
     \ parent_or_size(n, -1) {}\n\n    int merge(int a, int b) {\n        assert(0\
@@ -40,31 +40,33 @@ data:
     \ v.empty(); }),\n            result.end());\n        return result;\n    }\n\n\
     \    private:\n    int _n, num_component;\n    // root node: -1 * component size\n\
     \    // otherwise: parent\n    std::vector<int> parent_or_size;\n};\n#line 5 \"\
-    Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp\"\nusing namespace std;\r\n\r\
-    \nint main() {\r\n    cin.tie(0);\r\n    ios::sync_with_stdio(false);\r\n    int\
-    \ n, m, q, u, v;\r\n    cin >> n >> m;\r\n    dsu uf(n);\r\n    while(m--){\r\n\
-    \        cin >> u >> v;\r\n        uf.merge(u, v);\r\n    }\r\n    cin >> q;\r\
-    \n    while(q--){\r\n        cin >> u >> v;\r\n        cout << (uf.same(u, v)\
-    \ ? \"yes\" : \"no\") << '\\n';\r\n    }\r\n}\r\n"
-  code: "#define PROBLEM \"https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/5/ALDS1_11_D\"\
+    Test/Aizu Online Judge/Problems/problem1649.test.cpp\"\nusing namespace std;\r\
+    \n\r\nint main(){\r\n    ios::sync_with_stdio(false);\r\n    cin.tie(0);\r\n \
+    \   while(true){\r\n        int w, h;\r\n        cin >> w >> h;\r\n        if(w\
+    \ == 0) break;\r\n        dsu uf(w + h);\r\n        for(int i = 0; i < w + h -\
+    \ 1; i++){\r\n            int x, y, v;\r\n            cin >> x >> y >> v;\r\n\
+    \            uf.merge(--x, --y + w);\r\n        }\r\n        cout << (uf.size()\
+    \ == 1 ? \"YES\" : \"NO\") << '\\n';\r\n    }\r\n}\n"
+  code: "#define PROBLEM \"https://onlinejudge.u-aizu.ac.jp/services/ice/?problemId=1649\"\
     \r\n\r\n#include <bits/stdc++.h>\r\n#include \"Graph/dsu.hpp\"\r\nusing namespace\
-    \ std;\r\n\r\nint main() {\r\n    cin.tie(0);\r\n    ios::sync_with_stdio(false);\r\
-    \n    int n, m, q, u, v;\r\n    cin >> n >> m;\r\n    dsu uf(n);\r\n    while(m--){\r\
-    \n        cin >> u >> v;\r\n        uf.merge(u, v);\r\n    }\r\n    cin >> q;\r\
-    \n    while(q--){\r\n        cin >> u >> v;\r\n        cout << (uf.same(u, v)\
-    \ ? \"yes\" : \"no\") << '\\n';\r\n    }\r\n}\r\n"
+    \ std;\r\n\r\nint main(){\r\n    ios::sync_with_stdio(false);\r\n    cin.tie(0);\r\
+    \n    while(true){\r\n        int w, h;\r\n        cin >> w >> h;\r\n        if(w\
+    \ == 0) break;\r\n        dsu uf(w + h);\r\n        for(int i = 0; i < w + h -\
+    \ 1; i++){\r\n            int x, y, v;\r\n            cin >> x >> y >> v;\r\n\
+    \            uf.merge(--x, --y + w);\r\n        }\r\n        cout << (uf.size()\
+    \ == 1 ? \"YES\" : \"NO\") << '\\n';\r\n    }\r\n}"
   dependsOn:
   - Graph/dsu.hpp
   isVerificationFile: true
-  path: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
+  path: Test/Aizu Online Judge/Problems/problem1649.test.cpp
   requiredBy: []
-  timestamp: '2023-12-31 11:07:57+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2024-05-06 18:53:17+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
-documentation_of: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
+documentation_of: Test/Aizu Online Judge/Problems/problem1649.test.cpp
 layout: document
 redirect_from:
-- /verify/Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
-- /verify/Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp.html
-title: Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
+- /verify/Test/Aizu Online Judge/Problems/problem1649.test.cpp
+- /verify/Test/Aizu Online Judge/Problems/problem1649.test.cpp.html
+title: Test/Aizu Online Judge/Problems/problem1649.test.cpp
 ---

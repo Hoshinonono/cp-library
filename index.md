@@ -3,6 +3,9 @@ data:
   libraryCategories:
   - name: DataStructure
     pages:
+    - icon: ':warning:'
+      path: DataStructure/AdjacentDiffSet.hpp
+      title: "\u96A3\u63A5\u5DEE\u96C6\u5408"
     - icon: ':heavy_check_mark:'
       path: DataStructure/CumulativeSum2D.hpp
       title: "2\u6B21\u5143\u7D2F\u7A4D\u548C"

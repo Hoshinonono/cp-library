@@ -9,7 +9,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
     title: Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/Aizu Online Judge/Problems/problem1649.test.cpp
     title: Test/Aizu Online Judge/Problems/problem1649.test.cpp
   - icon: ':heavy_check_mark:'
@@ -18,9 +18,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/yukicoder/yuki2696.test.cpp
     title: Test/yukicoder/yuki2696.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/dsu.hpp\"\nstruct dsu {\n    public:\n    dsu() :\
@@ -75,7 +75,7 @@ data:
   path: Graph/dsu.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:42:54+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
   - Test/Aizu Online Judge/Problems/problem1649.test.cpp

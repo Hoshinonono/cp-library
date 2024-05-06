@@ -29,7 +29,7 @@ data:
       title: "\u9045\u5EF6\u8A55\u4FA1\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
   - name: Graph
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/dsu.hpp
       title: Union Find
     - icon: ':heavy_check_mark:'
@@ -121,7 +121,7 @@ data:
       title: Test/Aizu Online Judge/GRL/GRL_3_B.test.cpp
   - name: Test/Aizu Online Judge/Problems
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/Problems/problem1649.test.cpp
       title: Test/Aizu Online Judge/Problems/problem1649.test.cpp
   - name: Test/Library Checker/Data Structure

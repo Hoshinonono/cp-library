@@ -133,9 +133,9 @@ data:
   timestamp: '2023-12-31 10:45:38+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
   - Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
+  - Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
 documentation_of: Tree/hld.hpp
 layout: document
 title: "HL\u5206\u89E3 (HLD, Heavy-Light-Decomposition)"

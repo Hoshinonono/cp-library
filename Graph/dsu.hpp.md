@@ -77,9 +77,9 @@ data:
   timestamp: '2023-12-31 10:42:54+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
-  - Test/Aizu Online Judge/Problems/problem1649.test.cpp
   - Test/Aizu Online Judge/DSL/DSL_1_A.test.cpp
+  - Test/Aizu Online Judge/Problems/problem1649.test.cpp
+  - Test/Aizu Online Judge/ALDS1/ALDS1_11_D.test.cpp
   - Test/Library Checker/Data Structure/unionfind.test.cpp
   - Test/yukicoder/yuki2696.test.cpp
 documentation_of: Graph/dsu.hpp

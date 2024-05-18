@@ -12,6 +12,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/CumulativeSum2D_imos.hpp
       title: "2\u6B21\u5143\u3044\u3082\u3059\u6CD5"
+    - icon: ':warning:'
+      path: DataStructure/LiChaoTree_min.hpp
+      title: DataStructure/LiChaoTree_min.hpp
     - icon: ':heavy_check_mark:'
       path: DataStructure/SparseTable.hpp
       title: DataStructure/SparseTable.hpp

@@ -14,7 +14,7 @@ data:
       title: "2\u6B21\u5143\u3044\u3082\u3059\u6CD5"
     - icon: ':warning:'
       path: DataStructure/LiChaoTree_min.hpp
-      title: DataStructure/LiChaoTree_min.hpp
+      title: "LiChaoTree (\u6700\u5C0F\u5024\u53D6\u5F97)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SparseTable.hpp
       title: DataStructure/SparseTable.hpp

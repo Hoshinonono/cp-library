@@ -1,6 +1,6 @@
 ---
 title: LiChaoTree (最小値取得)
-documentation_of: ./LiChapTree_min.hpp
+documentation_of: ./LiChaoTree_min.hpp
 ---
 
 ## 概要

@@ -1,7 +1,7 @@
 #define PROBLEM "https://yukicoder.me/problems/no/2764"
 
 #include <bits/stdc++.h>
-#include "DataStructure/LiChoTree_min.hpp"
+#include "DataStructure/LiChoaTree_min.hpp"
 using namespace std;
 using ll = long long;
 

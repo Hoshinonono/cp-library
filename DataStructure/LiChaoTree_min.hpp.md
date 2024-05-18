@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/yuki2764.test.cpp
+    title: Test/yukicoder/yuki2764.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/LiChaoTree_min.hpp\"\nclass LiChaoTree{\r\n\
@@ -83,8 +86,9 @@ data:
   path: DataStructure/LiChaoTree_min.hpp
   requiredBy: []
   timestamp: '2024-05-18 15:59:59+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/yukicoder/yuki2764.test.cpp
 documentation_of: DataStructure/LiChaoTree_min.hpp
 layout: document
 title: "LiChaoTree (\u6700\u5C0F\u5024\u53D6\u5F97)"

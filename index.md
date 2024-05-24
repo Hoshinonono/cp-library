@@ -78,6 +78,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Math/modint_61bit.hpp
       title: Math/modint_61bit.hpp
+  - name: String
+    pages:
+    - icon: ':warning:'
+      path: String/RollingHash.hpp
+      title: String/RollingHash.hpp
   - name: Tree
     pages:
     - icon: ':heavy_check_mark:'

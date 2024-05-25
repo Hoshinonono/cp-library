@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Aizu Online Judge/Problems/problem3249.test.cpp
+    title: Test/Aizu Online Judge/Problems/problem3249.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"String/RollingHash.hpp\"\nstruct RollingHash{\n    long\
@@ -58,8 +61,9 @@ data:
   path: String/RollingHash.hpp
   requiredBy: []
   timestamp: '2024-05-25 08:55:14+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Aizu Online Judge/Problems/problem3249.test.cpp
 documentation_of: String/RollingHash.hpp
 layout: document
 redirect_from:

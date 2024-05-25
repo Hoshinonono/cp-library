@@ -80,7 +80,7 @@ data:
       title: Math/modint_61bit.hpp
   - name: String
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: String/RollingHash.hpp
       title: String/RollingHash.hpp
   - name: Tree
@@ -135,6 +135,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/Aizu Online Judge/Problems/problem1649.test.cpp
       title: Test/Aizu Online Judge/Problems/problem1649.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/Aizu Online Judge/Problems/problem3249.test.cpp
+      title: Test/Aizu Online Judge/Problems/problem3249.test.cpp
   - name: Test/Library Checker/Data Structure
     pages:
     - icon: ':heavy_check_mark:'

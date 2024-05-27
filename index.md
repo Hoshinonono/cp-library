@@ -85,6 +85,9 @@ data:
       title: String/RollingHash.hpp
   - name: Tree
     pages:
+    - icon: ':warning:'
+      path: Tree/LinkCutTree.hpp
+      title: Link Cut Tree
     - icon: ':heavy_check_mark:'
       path: Tree/hld.hpp
       title: "HL\u5206\u89E3 (HLD, Heavy-Light-Decomposition)"

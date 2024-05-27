@@ -85,7 +85,7 @@ data:
       title: String/RollingHash.hpp
   - name: Tree
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Tree/LinkCutTree.hpp
       title: Link Cut Tree
     - icon: ':heavy_check_mark:'
@@ -168,6 +168,9 @@ data:
       title: Test/Library Checker/Graph/two_edge_connected_components.test.cpp
   - name: Test/Library Checker/Tree
     pages:
+    - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
+      title: Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
     - icon: ':heavy_check_mark:'
       path: Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
       title: Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp

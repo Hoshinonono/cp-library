@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
+    title: Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Tree/LinkCutTree.hpp\"\ntemplate <class S, S (*op)(S, S),\
@@ -139,8 +142,9 @@ data:
   path: Tree/LinkCutTree.hpp
   requiredBy: []
   timestamp: '2024-05-28 04:11:36+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
 documentation_of: Tree/LinkCutTree.hpp
 layout: document
 title: Link Cut Tree

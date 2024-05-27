@@ -172,6 +172,9 @@ data:
       path: Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
       title: Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
     - icon: ':heavy_check_mark:'
+      path: Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
+      title: Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
+    - icon: ':heavy_check_mark:'
       path: Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
       title: Test/Library Checker/Tree/jump_on_tree_doubling.test.cpp
     - icon: ':heavy_check_mark:'

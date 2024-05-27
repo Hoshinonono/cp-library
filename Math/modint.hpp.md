@@ -4,6 +4,9 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
+    title: Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
+  - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
     title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - icon: ':heavy_check_mark:'
@@ -78,6 +81,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
+  - Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
   - Test/yukicoder/yuki2277.test.cpp
 documentation_of: Math/modint.hpp
 layout: document

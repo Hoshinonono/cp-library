@@ -66,7 +66,7 @@ data:
       path: Graph/lowlink_tecc.hpp
       title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3 (TECC, Two-Edge-Connected\
         \ Components)"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/scc.hpp
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\
         \ Component)"
@@ -218,7 +218,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2764.test.cpp
       title: Test/yukicoder/yuki2764.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2780.test.cpp
       title: Test/yukicoder/yuki2780.test.cpp
 layout: toppage

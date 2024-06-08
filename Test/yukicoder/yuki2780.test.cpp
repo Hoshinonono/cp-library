@@ -33,8 +33,8 @@ int main(){
         }
         for(auto &&v : G[i]){
             for(auto &&u : g[v]){
-                if(scc[v] == scc[u]) continue;
-                dp[scc[u]] = max(dp[scc[u]], dp[scc[v]] + 1);
+                if(scc[u] == i) continue;
+                dp[scc[u]] = max(dp[scc[u]], dp[i] + 1);
             }
         }
     }

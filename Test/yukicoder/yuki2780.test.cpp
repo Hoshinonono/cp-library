@@ -21,7 +21,7 @@ int main(){
     }
     SCC scc(g);
     auto G = scc.groups();
-    if(find(G[0].begin(), G[0].end(), 0) == G.end()){
+    if(find(G[0].begin(), G[0].end(), 0) == G[0].end()){
         cout << "No\n";
         return 0;
     }

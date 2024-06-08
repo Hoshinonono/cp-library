@@ -38,5 +38,5 @@ int main(){
             }
         }
     }
-    cout << "Yes\n" << '\n';
+    cout << "Yes\n";
 }

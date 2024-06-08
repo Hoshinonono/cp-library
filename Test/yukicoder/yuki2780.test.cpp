@@ -21,6 +21,10 @@ int main(){
     }
     SCC scc(g);
     auto G = scc.groups();
+    if(find(G[0].begin(), G[0].end(), 0) == G.end()){
+        cout << "No\n";
+        return 0;
+    }
     vector<int> dp(G.size());
     for(int i = 0; i < G.size(); i++){
         if(dp[i] != i){

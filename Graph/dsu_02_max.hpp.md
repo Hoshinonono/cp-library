@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/yukicoder/yuki2642.test.cpp
     title: Test/yukicoder/yuki2642.test.cpp
+  - icon: ':heavy_check_mark:'
+    path: Test/yukicoder/yuki2786.test.cpp
+    title: Test/yukicoder/yuki2786.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -62,6 +65,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/yuki2642.test.cpp
+  - Test/yukicoder/yuki2786.test.cpp
 documentation_of: Graph/dsu_02_max.hpp
 layout: document
 title: "\u7C21\u6613\u7248\u90E8\u5206\u6C38\u7D9A Union Find (\u6700\u5927\u8FBA\u53D6\

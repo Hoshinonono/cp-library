@@ -221,5 +221,8 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2780.test.cpp
       title: Test/yukicoder/yuki2780.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Test/yukicoder/yuki2786.test.cpp
+      title: Test/yukicoder/yuki2786.test.cpp
 layout: toppage
 ---

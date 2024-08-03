@@ -70,7 +70,7 @@ data:
       path: Graph/scc.hpp
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\
         \ Component)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/steiner_tree.hpp
       title: "\u6700\u5C0F\u30B7\u30E5\u30BF\u30A4\u30CA\u30FC\u6728"
   - name: Math
@@ -197,7 +197,7 @@ data:
       title: Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - name: Test/yukicoder
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki0114.test.cpp
       title: Test/yukicoder/yuki0114.test.cpp
     - icon: ':heavy_check_mark:'

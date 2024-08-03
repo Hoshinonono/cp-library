@@ -1,6 +1,6 @@
 ---
 title: 最小シュタイナー木
-documentation_of: ./steinter_tree.hpp
+documentation_of: ./steiner_tree.hpp
 ---
 
 ## 概要

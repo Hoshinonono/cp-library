@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: Test/yukicoder/yuki0114.test.cpp
+    title: Test/yukicoder/yuki0114.test.cpp
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/steiner_tree.hpp\"\ntemplate <class T> std::vector<T>\
@@ -44,8 +47,9 @@ data:
   path: Graph/steiner_tree.hpp
   requiredBy: []
   timestamp: '2024-08-03 19:16:34+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_WA
+  verifiedWith:
+  - Test/yukicoder/yuki0114.test.cpp
 documentation_of: Graph/steiner_tree.hpp
 layout: document
 redirect_from:

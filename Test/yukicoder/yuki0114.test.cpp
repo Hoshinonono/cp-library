@@ -1,7 +1,7 @@
 #define PROBLEM "https://yukicoder.me/problems/no/114"
 
 #include <bits/stdc++.h>
-#include <atcoder/all>
+#include "Graph/dsu.hpp"
 #include "Graph/steiner_tree.hpp"
 using ll = long long;
 
@@ -43,7 +43,7 @@ int main(){
 		sort(edge.begin(), edge.end());
 		for(long long U = S; U >= 0; U = (U - 1) & S){
 			int sv = 0;
-			atcoder::dsu uf(N);
+			dsu uf(N);
 			for(auto &&[w, u, v] : edge){
 				if((U >> u & 1) || (U >> v & 1) || uf.same(u, v)) continue;
 				uf.merge(u, v);

@@ -72,7 +72,7 @@ data:
         \ Component)"
     - icon: ':x:'
       path: Graph/steiner_tree.hpp
-      title: Graph/steiner_tree.hpp
+      title: "\u6700\u5C0F\u30B7\u30E5\u30BF\u30A4\u30CA\u30FC\u6728"
   - name: Math
     pages:
     - icon: ':heavy_check_mark:'

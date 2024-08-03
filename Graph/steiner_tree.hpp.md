@@ -52,8 +52,11 @@ data:
   - Test/yukicoder/yuki0114.test.cpp
 documentation_of: Graph/steiner_tree.hpp
 layout: document
-redirect_from:
-- /library/Graph/steiner_tree.hpp
-- /library/Graph/steiner_tree.hpp.html
-title: Graph/steiner_tree.hpp
+title: "\u6700\u5C0F\u30B7\u30E5\u30BF\u30A4\u30CA\u30FC\u6728"
 ---
+
+## 概要
+グラフにおいて、いくつかの頂点集合からなる $\text{terminal}$ を連結にするのに必要な最小コストを求める。
+<br>
+
+頂点数 $N$, 辺数 $M$, $\text{terminal}$ の個数を $K$ として計算量 $\text{O} (3^{K}N + 2^{K}(N + M) \log M)$

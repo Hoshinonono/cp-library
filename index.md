@@ -70,6 +70,9 @@ data:
       path: Graph/scc.hpp
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (SCC, Strongly Connected\
         \ Component)"
+    - icon: ':warning:'
+      path: Graph/steiner_tree.hpp
+      title: Graph/steiner_tree.hpp
   - name: Math
     pages:
     - icon: ':heavy_check_mark:'

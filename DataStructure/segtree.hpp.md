@@ -107,8 +107,8 @@ data:
   timestamp: '2023-12-31 10:41:43+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Aizu Online Judge/DSL/DSL_2_A.test.cpp
   - Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
+  - Test/Aizu Online Judge/DSL/DSL_2_A.test.cpp
 documentation_of: DataStructure/segtree.hpp
 layout: document
 title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"

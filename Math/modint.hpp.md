@@ -80,9 +80,9 @@ data:
   timestamp: '2023-12-31 10:44:35+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - Test/yukicoder/yuki2277.test.cpp
   - Test/Library Checker/Tree/vertex_set_path_composite01.test.cpp
   - Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
-  - Test/yukicoder/yuki2277.test.cpp
 documentation_of: Math/modint.hpp
 layout: document
 redirect_from:

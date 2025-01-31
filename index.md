@@ -81,6 +81,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Math/modint_61bit.hpp
       title: Math/modint_61bit.hpp
+    - icon: ':warning:'
+      path: Math/thomas.hpp
+      title: Thomas algorithm
   - name: String
     pages:
     - icon: ':heavy_check_mark:'

@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: Test/yukicoder/yuki3178.test.cpp
+    title: Test/yukicoder/yuki3178.test.cpp
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/csr.hpp\"\ntemplate <class T> struct csr {\r\n   \
@@ -38,8 +41,9 @@ data:
   path: Graph/csr.hpp
   requiredBy: []
   timestamp: '2025-06-21 08:41:08+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_WA
+  verifiedWith:
+  - Test/yukicoder/yuki3178.test.cpp
 documentation_of: Graph/csr.hpp
 layout: document
 title: Compressed Sparse Row (CSR)

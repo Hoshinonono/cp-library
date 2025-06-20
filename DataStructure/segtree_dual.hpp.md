@@ -9,9 +9,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
     title: Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
-  _isVerificationFailed: false
+  - icon: ':x:'
+    path: Test/yukicoder/yuki3178.test.cpp
+    title: Test/yukicoder/yuki3178.test.cpp
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/segtree_dual.hpp\"\ntemplate <class S, S (*mapping)(S,\
@@ -70,8 +73,9 @@ data:
   path: DataStructure/segtree_dual.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:41:43+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
+  - Test/yukicoder/yuki3178.test.cpp
   - Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp
   - Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
 documentation_of: DataStructure/segtree_dual.hpp

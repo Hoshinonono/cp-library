@@ -27,7 +27,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/segtree.hpp
       title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/segtree_dual.hpp
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
     - icon: ':heavy_check_mark:'
@@ -35,7 +35,7 @@ data:
       title: "\u9045\u5EF6\u8A55\u4FA1\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
   - name: Graph
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/csr.hpp
       title: Compressed Sparse Row (CSR)
     - icon: ':heavy_check_mark:'
@@ -236,7 +236,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2786.test.cpp
       title: Test/yukicoder/yuki2786.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki3178.test.cpp
       title: Test/yukicoder/yuki3178.test.cpp
 layout: toppage

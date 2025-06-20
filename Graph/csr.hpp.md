@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/yukicoder/yuki3178.test.cpp
     title: Test/yukicoder/yuki3178.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/csr.hpp\"\ntemplate <class T> struct csr {\r\n   \
@@ -41,7 +41,7 @@ data:
   path: Graph/csr.hpp
   requiredBy: []
   timestamp: '2025-06-21 08:41:08+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/yuki3178.test.cpp
 documentation_of: Graph/csr.hpp

@@ -9,12 +9,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
     title: Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Test/yukicoder/yuki3178.test.cpp
     title: Test/yukicoder/yuki3178.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/segtree_dual.hpp\"\ntemplate <class S, S (*mapping)(S,\
@@ -73,7 +73,7 @@ data:
   path: DataStructure/segtree_dual.hpp
   requiredBy: []
   timestamp: '2023-12-31 10:41:43+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/yuki3178.test.cpp
   - Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp

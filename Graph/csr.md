@@ -13,5 +13,5 @@ documentation_of: ./csr.hpp
 |`void add_edge(int u, T v)`| 頂点 $u$ から辺 $v$ を追加する。 | $\text{O} (1)$ | 
 |`void build()`| 追加した辺をバケットソートして使える状態にする。 | $\text{O} (N + M)$ |
 |`Node csr[v]`| 頂点 $v$ から張られている辺を返す。 | - | 
-|`T csr[v][i]`| 頂点 $v$ から張られているi番目の辺を返す。 | - | 
+|`T csr[v][i]`| 頂点 $v$ から張られているi番目の辺を返す。 | $\text{O} (1)$ | 
 |`int csr[v].size()`| 頂点 $v$ から張られている辺の数を返す。 | $\text{O} (1)$ | 

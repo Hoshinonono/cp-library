@@ -1,11 +1,11 @@
 #define PROBLEM "https://yukicoder.me/problems/no/3026"
 
 #include <bits/stdc++.h>
-#include <atcoder/all>
-#include <DataStructure/StaticRangeLCM.hpp>
+#include "Math/modint.hpp"
+#include "DataStructure/StaticRangeLCM.hpp"
 using namespace std;
 using ll = long long;
-using mint = atcoder::modint998244353;
+using mint = prime_modint<998244353>;
 
 int main() {
     ios::sync_with_stdio(false);
@@ -21,10 +21,10 @@ int main() {
     while(Q--){
         int a, b;
         cin >> a >> b;
-        int l = (a * ans).val() % n, r = (b * ans).val() % n;
+        int l = (a * ans).v % n, r = (b * ans).v % n;
         if(l > r) swap(l, r);
         r++;
         ans = RLCM.prod(l, r);
-        cout << ans.val() << '\n';
+        cout << ans << '\n';
     }
 }

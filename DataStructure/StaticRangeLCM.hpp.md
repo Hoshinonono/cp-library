@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _extendedVerifiedWith:
+  - icon: ':x:'
+    path: Test/yukicoder/yuki3026.test.cpp
+    title: Test/yukicoder/yuki3026.test.cpp
+  _isVerificationFailed: true
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':x:'
   attributes:
     links: []
   bundledCode: "#line 1 \"DataStructure/StaticRangeLCM.hpp\"\ntemplate <class mint>\
@@ -112,8 +115,9 @@ data:
   path: DataStructure/StaticRangeLCM.hpp
   requiredBy: []
   timestamp: '2025-09-14 18:09:37+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_WA
+  verifiedWith:
+  - Test/yukicoder/yuki3026.test.cpp
 documentation_of: DataStructure/StaticRangeLCM.hpp
 layout: document
 title: StaticRangeLCM

@@ -21,12 +21,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/LiChaoTree_min.hpp
       title: "LiChaoTree (\u6700\u5C0F\u5024\u53D6\u5F97)"
-    - icon: ':warning:'
-      path: DataStructure/RangeLCM.hpp
-      title: DataStructure/RangeLCM.hpp
     - icon: ':heavy_check_mark:'
       path: DataStructure/SparseTable.hpp
       title: DataStructure/SparseTable.hpp
+    - icon: ':warning:'
+      path: DataStructure/StaticRangeLCM.hpp
+      title: StaticRangeLCM
     - icon: ':heavy_check_mark:'
       path: DataStructure/fenwick_tree.hpp
       title: "\u30D5\u30A7\u30CB\u30C3\u30AF\u6728 (BIT, Binary Indexed Tree)"

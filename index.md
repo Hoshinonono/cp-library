@@ -21,6 +21,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/LiChaoTree_min.hpp
       title: "LiChaoTree (\u6700\u5C0F\u5024\u53D6\u5F97)"
+    - icon: ':warning:'
+      path: DataStructure/RangeLCM.hpp
+      title: DataStructure/RangeLCM.hpp
     - icon: ':heavy_check_mark:'
       path: DataStructure/SparseTable.hpp
       title: DataStructure/SparseTable.hpp

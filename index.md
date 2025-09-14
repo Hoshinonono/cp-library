@@ -24,7 +24,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SparseTable.hpp
       title: DataStructure/SparseTable.hpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/StaticRangeLCM.hpp
       title: StaticRangeLCM
     - icon: ':heavy_check_mark:'
@@ -242,7 +242,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki2786.test.cpp
       title: Test/yukicoder/yuki2786.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Test/yukicoder/yuki3026.test.cpp
       title: Test/yukicoder/yuki3026.test.cpp
     - icon: ':heavy_check_mark:'

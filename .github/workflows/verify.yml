@@ -22,6 +22,7 @@ jobs:
           git sparse-checkout set atcoder
           git checkout
           mv atcoder ../
+          cd ../
 
     - name: Install dependencies
       run: pip3 install -U online-judge-verify-helper
@@ -32,3 +33,6 @@ jobs:
           YUKICODER_TOKEN: ${{ secrets.YUKICODER_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
       run: oj-verify all
+
+    - name: Delete ac-library
+      run: rmdir /s /q atcoder

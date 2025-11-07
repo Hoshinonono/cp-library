@@ -75,9 +75,9 @@ data:
   timestamp: '2023-12-31 10:41:43+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
   - Test/yukicoder/yuki3178.test.cpp
   - Test/Aizu Online Judge/DSL/DSL_2_D.test.cpp
-  - Test/Library Checker/Tree/vertex_add_subtree_sum01.test.cpp
 documentation_of: DataStructure/segtree_dual.hpp
 layout: document
 title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"

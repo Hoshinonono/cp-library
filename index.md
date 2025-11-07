@@ -114,6 +114,212 @@ data:
       path: Tree/lca_ufdoubling.hpp
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30C0\
         \u30D6\u30EA\u30F3\u30B0+UF)"
+  - name: ac-library
+    pages:
+    - icon: ':warning:'
+      path: ac-library/expander.py
+      title: ac-library/expander.py
+  - name: ac-library/test/benchmark
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/benchmark/convolution.cpp
+      title: ac-library/test/benchmark/convolution.cpp
+  - name: ac-library/test/example
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/example/convolution_int_practice.cpp
+      title: ac-library/test/example/convolution_int_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/convolution_practice.cpp
+      title: ac-library/test/example/convolution_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/dsu_practice.cpp
+      title: ac-library/test/example/dsu_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/fenwick_practice.cpp
+      title: ac-library/test/example/fenwick_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/floor_sum_practice.cpp
+      title: ac-library/test/example/floor_sum_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/lazyseg_practice1.cpp
+      title: ac-library/test/example/lazyseg_practice1.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/lazyseg_practice2.cpp
+      title: ac-library/test/example/lazyseg_practice2.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/maxflow_practice.cpp
+      title: ac-library/test/example/maxflow_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/mincostflow_practice.cpp
+      title: ac-library/test/example/mincostflow_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/modint_usage.cpp
+      title: ac-library/test/example/modint_usage.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/sa_practice.cpp
+      title: ac-library/test/example/sa_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/sa_usage.cpp
+      title: ac-library/test/example/sa_usage.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/scc_practice.cpp
+      title: ac-library/test/example/scc_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/segtree_practice.cpp
+      title: ac-library/test/example/segtree_practice.cpp
+    - icon: ':warning:'
+      path: ac-library/test/example/twosat_practice.cpp
+      title: ac-library/test/example/twosat_practice.cpp
+  - name: ac-library/test/expander
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/expander/comment_out.cpp
+      title: ac-library/test/expander/comment_out.cpp
+    - icon: ':warning:'
+      path: ac-library/test/expander/include_all.cpp
+      title: ac-library/test/expander/include_all.cpp
+    - icon: ':warning:'
+      path: ac-library/test/expander/include_dsu.cpp
+      title: ac-library/test/expander/include_dsu.cpp
+    - icon: ':warning:'
+      path: ac-library/test/expander/include_unusual_format.cpp
+      title: ac-library/test/expander/include_unusual_format.cpp
+  - name: ac-library/test
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/test_expander.py
+      title: ac-library/test/test_expander.py
+  - name: ac-library/test/unittest
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/unittest/basic_test.cpp
+      title: ac-library/test/unittest/basic_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/bit_test.cpp
+      title: ac-library/test/unittest/bit_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/convolution_test.cpp
+      title: ac-library/test/unittest/convolution_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/dsu_test.cpp
+      title: ac-library/test/unittest/dsu_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/fenwicktree_test.cpp
+      title: ac-library/test/unittest/fenwicktree_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/internal_math_test.cpp
+      title: ac-library/test/unittest/internal_math_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/lazysegtree_stress_test.cpp
+      title: ac-library/test/unittest/lazysegtree_stress_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/lazysegtree_test.cpp
+      title: ac-library/test/unittest/lazysegtree_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/math_test.cpp
+      title: ac-library/test/unittest/math_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/maxflow_test.cpp
+      title: ac-library/test/unittest/maxflow_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/mincostflow_test.cpp
+      title: ac-library/test/unittest/mincostflow_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/modint_test.cpp
+      title: ac-library/test/unittest/modint_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/scc_test.cpp
+      title: ac-library/test/unittest/scc_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/segtree_test.cpp
+      title: ac-library/test/unittest/segtree_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/string_test.cpp
+      title: ac-library/test/unittest/string_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/twosat_test.cpp
+      title: ac-library/test/unittest/twosat_test.cpp
+    - icon: ':warning:'
+      path: ac-library/test/unittest/type_traits_test.cpp
+      title: ac-library/test/unittest/type_traits_test.cpp
+  - name: ac-library/test/unittest/utils
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/unittest/utils/math_test.cpp
+      title: ac-library/test/unittest/utils/math_test.cpp
+  - name: ac-library/test/utils
+    pages:
+    - icon: ':warning:'
+      path: ac-library/test/utils/math.hpp
+      title: ac-library/test/utils/math.hpp
+    - icon: ':warning:'
+      path: ac-library/test/utils/random.hpp
+      title: ac-library/test/utils/random.hpp
+  - name: ac-library/tools
+    pages:
+    - icon: ':warning:'
+      path: ac-library/tools/generate_document.py
+      title: ac-library/tools/generate_document.py
+    - icon: ':warning:'
+      path: ac-library/tools/generate_zip.py
+      title: ac-library/tools/generate_zip.py
+  - name: atcoder
+    pages:
+    - icon: ':warning:'
+      path: atcoder/convolution.hpp
+      title: atcoder/convolution.hpp
+    - icon: ':warning:'
+      path: atcoder/dsu.hpp
+      title: atcoder/dsu.hpp
+    - icon: ':warning:'
+      path: atcoder/fenwicktree.hpp
+      title: atcoder/fenwicktree.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_bit.hpp
+      title: atcoder/internal_bit.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_csr.hpp
+      title: atcoder/internal_csr.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_math.hpp
+      title: atcoder/internal_math.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_queue.hpp
+      title: atcoder/internal_queue.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_scc.hpp
+      title: atcoder/internal_scc.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_type_traits.hpp
+      title: atcoder/internal_type_traits.hpp
+    - icon: ':warning:'
+      path: atcoder/lazysegtree.hpp
+      title: atcoder/lazysegtree.hpp
+    - icon: ':warning:'
+      path: atcoder/math.hpp
+      title: atcoder/math.hpp
+    - icon: ':warning:'
+      path: atcoder/maxflow.hpp
+      title: atcoder/maxflow.hpp
+    - icon: ':warning:'
+      path: atcoder/mincostflow.hpp
+      title: atcoder/mincostflow.hpp
+    - icon: ':warning:'
+      path: atcoder/modint.hpp
+      title: atcoder/modint.hpp
+    - icon: ':warning:'
+      path: atcoder/scc.hpp
+      title: atcoder/scc.hpp
+    - icon: ':warning:'
+      path: atcoder/segtree.hpp
+      title: atcoder/segtree.hpp
+    - icon: ':warning:'
+      path: atcoder/string.hpp
+      title: atcoder/string.hpp
+    - icon: ':warning:'
+      path: atcoder/twosat.hpp
+      title: atcoder/twosat.hpp
   verificationCategories:
   - name: Test/Aizu Online Judge/ALDS1
     pages:

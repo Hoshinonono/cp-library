@@ -5,7 +5,6 @@
 #include <Graph/csr.hpp>
 #include <DataStructure/segtree_dual.hpp>
 using namespace std;
-
 using mint = atcoder::modint;
 using S = mint;
 // bf に af を作用させた時の変化

@@ -3,45 +3,6 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':warning:'
-    path: ac-library/test/example/convolution_int_practice.cpp
-    title: ac-library/test/example/convolution_int_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/convolution_practice.cpp
-    title: ac-library/test/example/convolution_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/fenwick_practice.cpp
-    title: ac-library/test/example/fenwick_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/lazyseg_practice1.cpp
-    title: ac-library/test/example/lazyseg_practice1.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/lazyseg_practice2.cpp
-    title: ac-library/test/example/lazyseg_practice2.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/modint_usage.cpp
-    title: ac-library/test/example/modint_usage.cpp
-  - icon: ':warning:'
-    path: ac-library/test/expander/include_all.cpp
-    title: ac-library/test/expander/include_all.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/basic_test.cpp
-    title: ac-library/test/unittest/basic_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/convolution_test.cpp
-    title: ac-library/test/unittest/convolution_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/fenwicktree_test.cpp
-    title: ac-library/test/unittest/fenwicktree_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/modint_test.cpp
-    title: ac-library/test/unittest/modint_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/scc_test.cpp
-    title: ac-library/test/unittest/scc_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/type_traits_test.cpp
-    title: ac-library/test/unittest/type_traits_test.cpp
-  - icon: ':warning:'
     path: atcoder/convolution.hpp
     title: atcoder/convolution.hpp
   - icon: ':warning:'
@@ -148,19 +109,6 @@ data:
   isVerificationFile: false
   path: atcoder/internal_type_traits.hpp
   requiredBy:
-  - ac-library/test/expander/include_all.cpp
-  - ac-library/test/example/lazyseg_practice1.cpp
-  - ac-library/test/example/convolution_int_practice.cpp
-  - ac-library/test/example/lazyseg_practice2.cpp
-  - ac-library/test/example/convolution_practice.cpp
-  - ac-library/test/example/modint_usage.cpp
-  - ac-library/test/example/fenwick_practice.cpp
-  - ac-library/test/unittest/scc_test.cpp
-  - ac-library/test/unittest/convolution_test.cpp
-  - ac-library/test/unittest/modint_test.cpp
-  - ac-library/test/unittest/fenwicktree_test.cpp
-  - ac-library/test/unittest/basic_test.cpp
-  - ac-library/test/unittest/type_traits_test.cpp
   - atcoder/fenwicktree.hpp
   - atcoder/convolution.hpp
   - atcoder/modint.hpp

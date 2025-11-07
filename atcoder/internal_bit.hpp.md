@@ -3,42 +3,6 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':warning:'
-    path: ac-library/test/example/convolution_int_practice.cpp
-    title: ac-library/test/example/convolution_int_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/convolution_practice.cpp
-    title: ac-library/test/example/convolution_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/lazyseg_practice1.cpp
-    title: ac-library/test/example/lazyseg_practice1.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/lazyseg_practice2.cpp
-    title: ac-library/test/example/lazyseg_practice2.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/segtree_practice.cpp
-    title: ac-library/test/example/segtree_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/expander/include_all.cpp
-    title: ac-library/test/expander/include_all.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/basic_test.cpp
-    title: ac-library/test/unittest/basic_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/bit_test.cpp
-    title: ac-library/test/unittest/bit_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/convolution_test.cpp
-    title: ac-library/test/unittest/convolution_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/lazysegtree_stress_test.cpp
-    title: ac-library/test/unittest/lazysegtree_stress_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/lazysegtree_test.cpp
-    title: ac-library/test/unittest/lazysegtree_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/segtree_test.cpp
-    title: ac-library/test/unittest/segtree_test.cpp
-  - icon: ':warning:'
     path: atcoder/convolution.hpp
     title: atcoder/convolution.hpp
   - icon: ':warning:'
@@ -82,18 +46,6 @@ data:
   isVerificationFile: false
   path: atcoder/internal_bit.hpp
   requiredBy:
-  - ac-library/test/expander/include_all.cpp
-  - ac-library/test/example/lazyseg_practice1.cpp
-  - ac-library/test/example/convolution_int_practice.cpp
-  - ac-library/test/example/lazyseg_practice2.cpp
-  - ac-library/test/example/convolution_practice.cpp
-  - ac-library/test/example/segtree_practice.cpp
-  - ac-library/test/unittest/bit_test.cpp
-  - ac-library/test/unittest/lazysegtree_test.cpp
-  - ac-library/test/unittest/convolution_test.cpp
-  - ac-library/test/unittest/basic_test.cpp
-  - ac-library/test/unittest/lazysegtree_stress_test.cpp
-  - ac-library/test/unittest/segtree_test.cpp
   - atcoder/segtree.hpp
   - atcoder/lazysegtree.hpp
   - atcoder/convolution.hpp

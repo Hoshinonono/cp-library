@@ -4,19 +4,7 @@ data:
   - icon: ':warning:'
     path: atcoder/internal_bit.hpp
     title: atcoder/internal_bit.hpp
-  _extendedRequiredBy:
-  - icon: ':warning:'
-    path: ac-library/test/example/segtree_practice.cpp
-    title: ac-library/test/example/segtree_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/expander/include_all.cpp
-    title: ac-library/test/expander/include_all.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/basic_test.cpp
-    title: ac-library/test/unittest/basic_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/segtree_test.cpp
-    title: ac-library/test/unittest/segtree_test.cpp
+  _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
@@ -129,11 +117,7 @@ data:
   - atcoder/internal_bit.hpp
   isVerificationFile: false
   path: atcoder/segtree.hpp
-  requiredBy:
-  - ac-library/test/expander/include_all.cpp
-  - ac-library/test/example/segtree_practice.cpp
-  - ac-library/test/unittest/basic_test.cpp
-  - ac-library/test/unittest/segtree_test.cpp
+  requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

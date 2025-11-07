@@ -6,24 +6,6 @@ data:
     title: atcoder/internal_csr.hpp
   _extendedRequiredBy:
   - icon: ':warning:'
-    path: ac-library/test/example/scc_practice.cpp
-    title: ac-library/test/example/scc_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/example/twosat_practice.cpp
-    title: ac-library/test/example/twosat_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/expander/include_all.cpp
-    title: ac-library/test/expander/include_all.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/basic_test.cpp
-    title: ac-library/test/unittest/basic_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/scc_test.cpp
-    title: ac-library/test/unittest/scc_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/twosat_test.cpp
-    title: ac-library/test/unittest/twosat_test.cpp
-  - icon: ':warning:'
     path: atcoder/scc.hpp
     title: atcoder/scc.hpp
   - icon: ':warning:'
@@ -111,12 +93,6 @@ data:
   isVerificationFile: false
   path: atcoder/internal_scc.hpp
   requiredBy:
-  - ac-library/test/expander/include_all.cpp
-  - ac-library/test/example/twosat_practice.cpp
-  - ac-library/test/example/scc_practice.cpp
-  - ac-library/test/unittest/scc_test.cpp
-  - ac-library/test/unittest/twosat_test.cpp
-  - ac-library/test/unittest/basic_test.cpp
   - atcoder/twosat.hpp
   - atcoder/scc.hpp
   timestamp: '1970-01-01 00:00:00+00:00'

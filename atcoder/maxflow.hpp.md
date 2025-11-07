@@ -4,22 +4,7 @@ data:
   - icon: ':warning:'
     path: atcoder/internal_queue.hpp
     title: atcoder/internal_queue.hpp
-  _extendedRequiredBy:
-  - icon: ':warning:'
-    path: ac-library/test/example/maxflow_practice.cpp
-    title: ac-library/test/example/maxflow_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/expander/include_all.cpp
-    title: ac-library/test/expander/include_all.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/basic_test.cpp
-    title: ac-library/test/unittest/basic_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/maxflow_test.cpp
-    title: ac-library/test/unittest/maxflow_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/mincostflow_test.cpp
-    title: ac-library/test/unittest/mincostflow_test.cpp
+  _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
@@ -150,12 +135,7 @@ data:
   - atcoder/internal_queue.hpp
   isVerificationFile: false
   path: atcoder/maxflow.hpp
-  requiredBy:
-  - ac-library/test/expander/include_all.cpp
-  - ac-library/test/example/maxflow_practice.cpp
-  - ac-library/test/unittest/maxflow_test.cpp
-  - ac-library/test/unittest/mincostflow_test.cpp
-  - ac-library/test/unittest/basic_test.cpp
+  requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

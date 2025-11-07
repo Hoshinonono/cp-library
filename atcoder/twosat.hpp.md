@@ -7,19 +7,7 @@ data:
   - icon: ':warning:'
     path: atcoder/internal_scc.hpp
     title: atcoder/internal_scc.hpp
-  _extendedRequiredBy:
-  - icon: ':warning:'
-    path: ac-library/test/example/twosat_practice.cpp
-    title: ac-library/test/example/twosat_practice.cpp
-  - icon: ':warning:'
-    path: ac-library/test/expander/include_all.cpp
-    title: ac-library/test/expander/include_all.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/basic_test.cpp
-    title: ac-library/test/unittest/basic_test.cpp
-  - icon: ':warning:'
-    path: ac-library/test/unittest/twosat_test.cpp
-    title: ac-library/test/unittest/twosat_test.cpp
+  _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
@@ -100,11 +88,7 @@ data:
   - atcoder/internal_csr.hpp
   isVerificationFile: false
   path: atcoder/twosat.hpp
-  requiredBy:
-  - ac-library/test/expander/include_all.cpp
-  - ac-library/test/example/twosat_practice.cpp
-  - ac-library/test/unittest/twosat_test.cpp
-  - ac-library/test/unittest/basic_test.cpp
+  requiredBy: []
   timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

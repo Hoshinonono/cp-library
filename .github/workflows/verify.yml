@@ -13,6 +13,17 @@ jobs:
 
     - name: Set up Python
       uses: actions/setup-python@v1
+    
+    - name: Install ac-library
+      run: |
+          git clone https://github.com/atcoder/ac-library.git
+          mv ac-library/atcoder ./
+          git clone --no-checkout https://github.com/atcoder/ac-library.git
+          cd ac-library
+          git sparse-checkout init --cone
+          git sparse-checkout set atcoder
+          git checkout
+          mv atcoder ../
 
     - name: Install dependencies
       run: pip3 install -U online-judge-verify-helper

@@ -397,7 +397,7 @@ using is_dynamic_modint_t = std::enable_if_t<is_dynamic_modint<T>::value>;
 }  // namespace internal
 #endif
 
-using mint = modint;
+using mint = modint; 
 using S = mint;
 // bf に af を作用させた時の変化
 S mapping(S af, S bf){ return bf + af; }

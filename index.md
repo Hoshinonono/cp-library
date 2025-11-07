@@ -114,6 +114,67 @@ data:
       path: Tree/lca_ufdoubling.hpp
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (LCA, Lowest Common Ancestor) (\u30C0\
         \u30D6\u30EA\u30F3\u30B0+UF)"
+  - name: ac-library
+    pages:
+    - icon: ':warning:'
+      path: ac-library/expander.py
+      title: ac-library/expander.py
+  - name: atcoder
+    pages:
+    - icon: ':warning:'
+      path: atcoder/convolution.hpp
+      title: atcoder/convolution.hpp
+    - icon: ':warning:'
+      path: atcoder/dsu.hpp
+      title: atcoder/dsu.hpp
+    - icon: ':warning:'
+      path: atcoder/fenwicktree.hpp
+      title: atcoder/fenwicktree.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_bit.hpp
+      title: atcoder/internal_bit.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_csr.hpp
+      title: atcoder/internal_csr.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_math.hpp
+      title: atcoder/internal_math.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_queue.hpp
+      title: atcoder/internal_queue.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_scc.hpp
+      title: atcoder/internal_scc.hpp
+    - icon: ':warning:'
+      path: atcoder/internal_type_traits.hpp
+      title: atcoder/internal_type_traits.hpp
+    - icon: ':warning:'
+      path: atcoder/lazysegtree.hpp
+      title: atcoder/lazysegtree.hpp
+    - icon: ':warning:'
+      path: atcoder/math.hpp
+      title: atcoder/math.hpp
+    - icon: ':warning:'
+      path: atcoder/maxflow.hpp
+      title: atcoder/maxflow.hpp
+    - icon: ':warning:'
+      path: atcoder/mincostflow.hpp
+      title: atcoder/mincostflow.hpp
+    - icon: ':warning:'
+      path: atcoder/modint.hpp
+      title: atcoder/modint.hpp
+    - icon: ':warning:'
+      path: atcoder/scc.hpp
+      title: atcoder/scc.hpp
+    - icon: ':warning:'
+      path: atcoder/segtree.hpp
+      title: atcoder/segtree.hpp
+    - icon: ':warning:'
+      path: atcoder/string.hpp
+      title: atcoder/string.hpp
+    - icon: ':warning:'
+      path: atcoder/twosat.hpp
+      title: atcoder/twosat.hpp
   verificationCategories:
   - name: Test/Aizu Online Judge/ALDS1
     pages:

@@ -35,4 +35,4 @@ jobs:
       run: oj-verify all
 
     - name: Delete ac-library
-      run: rmdir /s /q atcoder
+      run: rm -rf /s /q atcoder

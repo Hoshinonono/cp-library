@@ -11,7 +11,7 @@ using S = mint;
 S mapping(S af, S bf){ return bf + af; }
 // 恒等写像
 S id(){ return 0; }
-
+ 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);

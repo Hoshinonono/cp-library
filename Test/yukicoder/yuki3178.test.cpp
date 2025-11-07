@@ -1,7 +1,7 @@
 #define PROBLEM "https://yukicoder.me/problems/no/3187"
 
 #include <bits/stdc++.h>
-#include <atcoder/all>
+#include <atcoder/modint.hpp>
 #include <Graph/csr.hpp>
 #include <DataStructure/segtree_dual.hpp>
 using namespace std;

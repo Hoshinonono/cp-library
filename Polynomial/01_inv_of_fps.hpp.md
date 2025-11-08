@@ -22,9 +22,9 @@ data:
     \        std::fill(buf.begin(), buf.begin() + res.size(), mint::raw(0));\n   \
     \     atcoder::internal::butterfly(buf);\n        for (int i = 0; i < m; i++)\
     \ buf[i] *= fres[i];\n        atcoder::internal::butterfly_inv(buf);\n       \
-    \ mint coef = -mint(mint::raw(m) * mint::raw(m)).inv();\n        for (int i =\
-    \ res.size(); i < std::min(m, n + 1); i++) res.emplace_back(buf[i] * coef);\n\
-    \    }\n    return res;\n}\n"
+    \ mint coef = -(mint::raw(m) * mint::raw(m)).inv();\n        for (int i = res.size();\
+    \ i < std::min(m, n + 1); i++) res.emplace_back(buf[i] * coef);\n    }\n    return\
+    \ res;\n}\n"
   code: "template <typename mint> std::vector<mint> inverse(std::vector<mint> &a){\n\
     \    const int n = a.size();\n    std::vector<mint> res;\n    res.reserve(a.size());\n\
     \    res.emplace_back(a[0].inv());\n    while(res.size() < a.size()){\n      \
@@ -35,14 +35,14 @@ data:
     \ buf[i] *= fres[i];\n        atcoder::internal::butterfly_inv(buf);\n       \
     \ std::fill(buf.begin(), buf.begin() + res.size(), mint::raw(0));\n        atcoder::internal::butterfly(buf);\n\
     \        for (int i = 0; i < m; i++) buf[i] *= fres[i];\n        atcoder::internal::butterfly_inv(buf);\n\
-    \        mint coef = -mint(mint::raw(m) * mint::raw(m)).inv();\n        for (int\
-    \ i = res.size(); i < std::min(m, n + 1); i++) res.emplace_back(buf[i] * coef);\n\
+    \        mint coef = -(mint::raw(m) * mint::raw(m)).inv();\n        for (int i\
+    \ = res.size(); i < std::min(m, n + 1); i++) res.emplace_back(buf[i] * coef);\n\
     \    }\n    return res;\n}\n"
   dependsOn: []
   isVerificationFile: false
   path: Polynomial/01_inv_of_fps.hpp
   requiredBy: []
-  timestamp: '2025-11-08 19:35:32+09:00'
+  timestamp: '2025-11-08 19:42:50+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Library Checker/Polynomial/inv_of_fps.test.cpp

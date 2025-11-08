@@ -2,7 +2,7 @@
 
 #include <bits/stdc++.h>
 #include <atcoder/all>
-#include "Polynomial/01_inv_of_polynomial.hpp"
+#include "Polynomial/01_inv_of_fps.hpp"
 using namespace std;
 using mint = atcoder::modint998244353;
 

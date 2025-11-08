@@ -1,6 +1,6 @@
 ---
-title: 多項式の逆元
-documentation_of: ./01_inv_of_polynomial.hpp
+title: FPSの逆元
+documentation_of: ./01_inv_of_fps.hpp
 ---
 
 ## 概要

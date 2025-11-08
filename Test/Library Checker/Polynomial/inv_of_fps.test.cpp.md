@@ -81,9 +81,9 @@ data:
     \ buf[i] *= fres[i];\n        atcoder::internal::butterfly_inv(buf);\n       \
     \ std::fill(buf.begin(), buf.begin() + res.size(), mint::raw(0));\n        atcoder::internal::butterfly(buf);\n\
     \        for (int i = 0; i < m; i++) buf[i] *= fres[i];\n        atcoder::internal::butterfly_inv(buf);\n\
-    \        mint coef = -mint(mint(1 - mint::mod()) / buf.size()).pow(2);\n     \
-    \   for (int i = res.size(); i < std::min(m, n + 1); i++) res.emplace_back(buf[i]\
-    \ * coef);\n    }\n    return res;\n}\n#line 6 \"Test/Library Checker/Polynomial/inv_of_fps.test.cpp\"\
+    \        mint coef = -mint(mint::raw(m) * mint::raw(m)).inv();\n        for (int\
+    \ i = res.size(); i < std::min(m, n + 1); i++) res.emplace_back(buf[i] * coef);\n\
+    \    }\n    return res;\n}\n#line 6 \"Test/Library Checker/Polynomial/inv_of_fps.test.cpp\"\
     \nusing namespace std;\nusing mint = atcoder::modint998244353;\n\nint main() {\n\
     \    ios::sync_with_stdio(false);\n    cin.tie(0);\n    int n, v;\n    cin >>\
     \ n;\n    vector<mint> a(n);\n    for(int i = 0; i < n; i++){\n        cin >>\
@@ -119,7 +119,7 @@ data:
   isVerificationFile: true
   path: Test/Library Checker/Polynomial/inv_of_fps.test.cpp
   requiredBy: []
-  timestamp: '2025-11-08 19:26:30+09:00'
+  timestamp: '2025-11-08 19:35:32+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Test/Library Checker/Polynomial/inv_of_fps.test.cpp

@@ -2,8 +2,8 @@
 data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
-    path: Polynomial/01_inv_of_polynomial.hpp
-    title: "\u591A\u9805\u5F0F\u306E\u9006\u5143"
+    path: Polynomial/01_inv_of_fps.hpp
+    title: "FPS\u306E\u9006\u5143"
   - icon: ':heavy_check_mark:'
     path: atcoder/convolution.hpp
     title: atcoder/convolution.hpp
@@ -70,7 +70,7 @@ data:
     - https://judge.yosupo.jp/problem/inv_of_formal_power_series
   bundledCode: "#line 1 \"Test/Library Checker/Polynomial/inv_of_fps.test.cpp\"\n\
     #define PROBLEM \"https://judge.yosupo.jp/problem/inv_of_formal_power_series\"\
-    \n\n#include <bits/stdc++.h>\n#include <atcoder/all>\n#line 1 \"Polynomial/01_inv_of_polynomial.hpp\"\
+    \n\n#include <bits/stdc++.h>\n#include <atcoder/all>\n#line 1 \"Polynomial/01_inv_of_fps.hpp\"\
     \ntemplate <typename mint> std::vector<mint> inverse(std::vector<mint> &a){\n\
     \    const int n = a.size();\n    std::vector<mint> res;\n    res.reserve(a.size());\n\
     \    res.emplace_back(a[0].inv());\n    while(res.size() < a.size()){\n      \
@@ -90,7 +90,7 @@ data:
     \ v;\n        a[i] = mint::raw(v);\n    }\n    auto ans = inverse(a);\n    for(int\
     \ i = 0; i < n; i++) cout << ans[i].val() << (i + 1 == n ? '\\n' : ' ');\n}\n\n"
   code: "#define PROBLEM \"https://judge.yosupo.jp/problem/inv_of_formal_power_series\"\
-    \n\n#include <bits/stdc++.h>\n#include <atcoder/all>\n#include \"Polynomial/01_inv_of_polynomial.hpp\"\
+    \n\n#include <bits/stdc++.h>\n#include <atcoder/all>\n#include \"Polynomial/01_inv_of_fps.hpp\"\
     \nusing namespace std;\nusing mint = atcoder::modint998244353;\n\nint main() {\n\
     \    ios::sync_with_stdio(false);\n    cin.tie(0);\n    int n, v;\n    cin >>\
     \ n;\n    vector<mint> a(n);\n    for(int i = 0; i < n; i++){\n        cin >>\
@@ -115,11 +115,11 @@ data:
   - atcoder/segtree.hpp
   - atcoder/string.hpp
   - atcoder/twosat.hpp
-  - Polynomial/01_inv_of_polynomial.hpp
+  - Polynomial/01_inv_of_fps.hpp
   isVerificationFile: true
   path: Test/Library Checker/Polynomial/inv_of_fps.test.cpp
   requiredBy: []
-  timestamp: '2025-11-08 19:16:03+09:00'
+  timestamp: '2025-11-08 19:26:30+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Test/Library Checker/Polynomial/inv_of_fps.test.cpp

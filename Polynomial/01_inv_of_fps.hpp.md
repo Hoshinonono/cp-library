@@ -11,8 +11,8 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "#line 1 \"Polynomial/01_inv_of_polynomial.hpp\"\ntemplate <typename\
-    \ mint> std::vector<mint> inverse(std::vector<mint> &a){\n    const int n = a.size();\n\
+  bundledCode: "#line 1 \"Polynomial/01_inv_of_fps.hpp\"\ntemplate <typename mint>\
+    \ std::vector<mint> inverse(std::vector<mint> &a){\n    const int n = a.size();\n\
     \    std::vector<mint> res;\n    res.reserve(a.size());\n    res.emplace_back(a[0].inv());\n\
     \    while(res.size() < a.size()){\n        const int m = 2 * res.size();\n  \
     \      std::vector<mint> buf(m), fres(m);\n        std::copy(a.begin(), a.begin()\
@@ -40,15 +40,15 @@ data:
     \ * coef);\n    }\n    return res;\n}\n"
   dependsOn: []
   isVerificationFile: false
-  path: Polynomial/01_inv_of_polynomial.hpp
+  path: Polynomial/01_inv_of_fps.hpp
   requiredBy: []
-  timestamp: '2025-11-08 19:16:03+09:00'
+  timestamp: '2025-11-08 19:26:30+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/Library Checker/Polynomial/inv_of_fps.test.cpp
-documentation_of: Polynomial/01_inv_of_polynomial.hpp
+documentation_of: Polynomial/01_inv_of_fps.hpp
 layout: document
-title: "\u591A\u9805\u5F0F\u306E\u9006\u5143"
+title: "FPS\u306E\u9006\u5143"
 ---
 
 ## 概要

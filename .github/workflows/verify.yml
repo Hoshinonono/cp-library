@@ -34,5 +34,29 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
       run: oj-verify all
 
-    - name: Delete ac-library
-      run: rm -rf /s /q atcoder
+  clean-index:
+    needs: verify         # ← verify が完了してから実行される
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yq
+        run: |
+          sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Remove ac-library from index
+        run: |
+          git checkout gh-pages
+          yq eval '
+            del(.data.libraryCategories[] | select(.name == "ac-library")) |
+            del(.data.libraryCategories[] | select(.name == "atcoder"))
+          ' index.md > index_tmp.md
+          mv index_tmp.md index.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add index.md
+          git diff --cached --exit-code || (git commit -m "Remove ac-library and atcoder sections" && git push)

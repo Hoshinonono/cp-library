@@ -16,7 +16,7 @@ template <typename mint> std::vector<mint> inverse(std::vector<mint> &a){
         atcoder::internal::butterfly(buf);
         for (int i = 0; i < m; i++) buf[i] *= fres[i];
         atcoder::internal::butterfly_inv(buf);
-        mint coef = -mint(mint::raw(m) * mint::raw(m)).inv();
+        mint coef = -(mint::raw(m) * mint::raw(m)).inv();
         for (int i = res.size(); i < std::min(m, n + 1); i++) res.emplace_back(buf[i] * coef);
     }
     return res;

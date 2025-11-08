@@ -4,8 +4,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp
-    title: Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp
+    path: Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp
+    title: Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -82,7 +82,7 @@ data:
   timestamp: '2024-01-07 20:45:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp.cpp
+  - Test/Library Checker/Data Structure/persistent_unionfind_rollbackuf.test.cpp
 documentation_of: Graph/dsu_03_rollback.hpp
 layout: document
 title: "Rollback\u4ED8\u304DUnion Find"

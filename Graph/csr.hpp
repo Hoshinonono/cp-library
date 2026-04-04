@@ -1,19 +1,23 @@
 template <class T> struct csr {
-    using itr = typename std::vector<T>::iterator;
     struct Node {
-        itr st, en;
-        itr begin() { return st; }
-        itr end() { return en; }
-        int size() { return en - st; }
-        T operator[](int p){ return st[p]; }
+        csr* g;
+        int u;
+        template<class... Args>
+        void emplace_back(Args&&... args){
+            g->add_edge(u, T(std::forward<Args>(args)...));
+        }
+        auto begin(){ return g->E.begin() + g->start[u]; }
+        auto end(){ return g->E.begin() + g->start[u + 1]; }
+        int size(){ return g->start[u + 1] - g->start[u]; }
+        T& operator[](int p){ return *(begin() + p); }
     };
-    const int N;
+    int N;
     std::vector<int> start;
     std::vector<T> E;
     std::vector<std::pair<int,T>> edge;
-    csr(int n) : N(n), start(n + 1) {}
+    csr(int n) : N(n), start(n + 1) {edge.reserve(n);}
     void add_edge(int u, T v){
-        assert(0 <= u && u < N);
+		assert(0 <= u && u < N);
         start[u + 1]++;
         edge.emplace_back(u, v);
     }
@@ -23,7 +27,6 @@ template <class T> struct csr {
         auto cnt = start;
         for(auto [u, v] : edge) E[cnt[u]++] = v;
     }
-    Node operator[](int p) {
-        return Node{E.begin() + start[p], E.begin() + start[p + 1]};
-    }
+	const int size() {return N;}
+    Node operator[](int u) {return Node{this, u};}
 };

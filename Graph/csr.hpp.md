@@ -12,35 +12,40 @@ data:
   attributes:
     links: []
   bundledCode: "#line 1 \"Graph/csr.hpp\"\ntemplate <class T> struct csr {\r\n   \
-    \ using itr = typename std::vector<T>::iterator;\r\n    struct Node {\r\n    \
-    \    itr st, en;\r\n        itr begin() { return st; }\r\n        itr end() {\
-    \ return en; }\r\n        int size() { return en - st; }\r\n        T operator[](int\
-    \ p){ return st[p]; }\r\n    };\r\n    const int N;\r\n    std::vector<int> start;\r\
-    \n    std::vector<T> E;\r\n    std::vector<std::pair<int,T>> edge;\r\n    csr(int\
-    \ n) : N(n), start(n + 1) {}\r\n    void add_edge(int u, T v){\r\n        assert(0\
-    \ <= u && u < N);\r\n        start[u + 1]++;\r\n        edge.emplace_back(u, v);\r\
-    \n    }\r\n    void build(){\r\n        E.resize(edge.size());\r\n        for(int\
-    \ i = 0; i < N; i++) start[i + 1] += start[i];\r\n        auto cnt = start;\r\n\
-    \        for(auto [u, v] : edge) E[cnt[u]++] = v;\r\n    }\r\n    Node operator[](int\
-    \ p) {\r\n        return Node{E.begin() + start[p], E.begin() + start[p + 1]};\r\
-    \n    }\r\n};\n"
-  code: "template <class T> struct csr {\r\n    using itr = typename std::vector<T>::iterator;\r\
-    \n    struct Node {\r\n        itr st, en;\r\n        itr begin() { return st;\
-    \ }\r\n        itr end() { return en; }\r\n        int size() { return en - st;\
-    \ }\r\n        T operator[](int p){ return st[p]; }\r\n    };\r\n    const int\
-    \ N;\r\n    std::vector<int> start;\r\n    std::vector<T> E;\r\n    std::vector<std::pair<int,T>>\
-    \ edge;\r\n    csr(int n) : N(n), start(n + 1) {}\r\n    void add_edge(int u,\
-    \ T v){\r\n        assert(0 <= u && u < N);\r\n        start[u + 1]++;\r\n   \
-    \     edge.emplace_back(u, v);\r\n    }\r\n    void build(){\r\n        E.resize(edge.size());\r\
+    \ struct Node {\r\n        csr* g;\r\n        int u;\r\n        template<class...\
+    \ Args>\r\n        void emplace_back(Args&&... args){\r\n            g->add_edge(u,\
+    \ T(std::forward<Args>(args)...));\r\n        }\r\n        auto begin(){ return\
+    \ g->E.begin() + g->start[u]; }\r\n        auto end(){ return g->E.begin() + g->start[u\
+    \ + 1]; }\r\n        int size(){ return g->start[u + 1] - g->start[u]; }\r\n \
+    \       T& operator[](int p){ return *(begin() + p); }\r\n    };\r\n    int N;\r\
+    \n    std::vector<int> start;\r\n    std::vector<T> E;\r\n    std::vector<std::pair<int,T>>\
+    \ edge;\r\n    csr(int n) : N(n), start(n + 1) {edge.reserve(n);}\r\n    void\
+    \ add_edge(int u, T v){\r\n\t\tassert(0 <= u && u < N);\r\n        start[u + 1]++;\r\
+    \n        edge.emplace_back(u, v);\r\n    }\r\n    void build(){\r\n        E.resize(edge.size());\r\
     \n        for(int i = 0; i < N; i++) start[i + 1] += start[i];\r\n        auto\
     \ cnt = start;\r\n        for(auto [u, v] : edge) E[cnt[u]++] = v;\r\n    }\r\n\
-    \    Node operator[](int p) {\r\n        return Node{E.begin() + start[p], E.begin()\
-    \ + start[p + 1]};\r\n    }\r\n};"
+    \tconst int size() {return N;}\r\n    Node operator[](int u) {return Node{this,\
+    \ u};}\r\n};\r\n"
+  code: "template <class T> struct csr {\r\n    struct Node {\r\n        csr* g;\r\
+    \n        int u;\r\n        template<class... Args>\r\n        void emplace_back(Args&&...\
+    \ args){\r\n            g->add_edge(u, T(std::forward<Args>(args)...));\r\n  \
+    \      }\r\n        auto begin(){ return g->E.begin() + g->start[u]; }\r\n   \
+    \     auto end(){ return g->E.begin() + g->start[u + 1]; }\r\n        int size(){\
+    \ return g->start[u + 1] - g->start[u]; }\r\n        T& operator[](int p){ return\
+    \ *(begin() + p); }\r\n    };\r\n    int N;\r\n    std::vector<int> start;\r\n\
+    \    std::vector<T> E;\r\n    std::vector<std::pair<int,T>> edge;\r\n    csr(int\
+    \ n) : N(n), start(n + 1) {edge.reserve(n);}\r\n    void add_edge(int u, T v){\r\
+    \n\t\tassert(0 <= u && u < N);\r\n        start[u + 1]++;\r\n        edge.emplace_back(u,\
+    \ v);\r\n    }\r\n    void build(){\r\n        E.resize(edge.size());\r\n    \
+    \    for(int i = 0; i < N; i++) start[i + 1] += start[i];\r\n        auto cnt\
+    \ = start;\r\n        for(auto [u, v] : edge) E[cnt[u]++] = v;\r\n    }\r\n\t\
+    const int size() {return N;}\r\n    Node operator[](int u) {return Node{this,\
+    \ u};}\r\n};\r\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/csr.hpp
   requiredBy: []
-  timestamp: '2025-06-21 08:41:08+09:00'
+  timestamp: '2026-04-05 11:38:01+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - Test/yukicoder/yuki3178.test.cpp

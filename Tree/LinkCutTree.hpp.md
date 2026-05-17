@@ -147,8 +147,8 @@ data:
   timestamp: '2024-05-28 04:11:36+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
   - Test/Library Checker/Tree/dynamic_tree_vertex_set_path_composite.test.cpp
+  - Test/Library Checker/Tree/dynamic_tree_vertex_add_path_sum.test.cpp
 documentation_of: Tree/LinkCutTree.hpp
 layout: document
 title: Link Cut Tree

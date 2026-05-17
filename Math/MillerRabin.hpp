@@ -6,7 +6,7 @@ struct Miller_Rabin {
     unsigned long long mul_mod(unsigned long long a, unsigned long long b, unsigned long long m) {
         unsigned long long ans = 0;
 #ifndef __SIZEOF_INT128__
-            if(a > b) std::swap(a, b);
+            if(a < b) std::swap(a, b);
             while(b){
                 if(b & 1){
                     ans += a;
@@ -37,9 +37,9 @@ struct Miller_Rabin {
         if (n % 2 == 0) return false;
         unsigned long long d = n - 1;
         while (d % 2 == 0) d /= 2;
-        static std::vector<std::vector<long long>> 
+        static std::vector<std::vector<unsigned long long>> 
             bases = {{2, 6, 61}, {2, 325, 9375, 28178, 450775, 9780504, 1795265022}};
-        for (long long a : bases[d > 4759123141]) {
+        for (unsigned long long a : bases[d > 4759123141]) {
             unsigned long long t = d;
             unsigned long long y = pow_mod(a, t, n);
             if(a % n){

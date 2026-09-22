@@ -83,7 +83,7 @@ template <class mint> struct Polynomial : std::vector<mint> {
         // 1/iのテーブルの作成
         int r = 2 << std::__lg(deg);
         auto mod = mint::mod();
-        vector<mint> iv(r + 1);
+        std::vector<mint> iv(r + 1);
         iv[1] = 1;
         for (int i = 2; i <= r; i++) iv[i] = (-iv[mod % i]) * (mod / i);
 
@@ -114,7 +114,7 @@ template <class mint> struct Polynomial : std::vector<mint> {
 
             poly x(m);
             std::copy(this->begin(), this->begin() + std::min(m, deg), x.begin());
-            for(int i = 0; i < m; i++) x[i] = x[i + 1] * mint::raw(i + 1);
+            for(int i = 0; i + 1 < m; i++) x[i] = x[i + 1] * mint::raw(i + 1);
             x.back() = 0;
             atcoder::internal::butterfly(x);
             for (int i = 0; i < m; ++i) x[i] *= y[i];
@@ -127,7 +127,7 @@ template <class mint> struct Polynomial : std::vector<mint> {
             internal_butterfly_inv(x);
             for(int i = x.size() - 1; i >= 1; i--) x[i] = iv[i] * x[i - 1];
             x[0] = 0;
-            for (int i = m; i < min(deg, 2 * m); ++i) x[i] += (*this)[i];
+            for (int i = m; i < std::min(deg, 2 * m); ++i) x[i] += (*this)[i];
             std::fill(x.begin(), x.begin() + m, mint::raw(0));
             atcoder::internal::butterfly(x);
             for (int i = 0; i < 2 * m; ++i) x[i] *= y[i];

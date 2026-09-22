@@ -45,8 +45,8 @@ data:
   timestamp: '2023-12-31 10:41:43+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
   - Test/Library Checker/Data Structure/point_add_range_sum.test.cpp
+  - Test/Library Checker/Tree/vertex_add_path_sum01.test.cpp
   - Test/Aizu Online Judge/ALDS1/ALDS1_05_D.test.cpp
 documentation_of: DataStructure/fenwick_tree.hpp
 layout: document
